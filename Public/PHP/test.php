@@ -1,53 +1,6 @@
-<!DOCTYPE html>
-
-<html>
-<head>
-    <!-- Website Title & Description for Search Engine purposes -->
-    <title></title>
-    <meta name="description" content="">
-
-    <!-- Mobile viewport optimized -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <!-- Bootstrap CSS -->
-    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
-    <link href="../CSS/bootstrap-glyphicons.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="../CSS/styles.css" rel="stylesheet">
-
-    <!-- Include Modernizr in the head, before any other Javascript -->
-    <script src="../JS/modernizr-2.6.2.min.js"></script>
-
-    <script>
-        function checkpass() {
-            var s = document.forms["reg"]["password1"].value;
-            var y = document.forms["reg"]["conpassword"].value;
-
-            if (s!=y) {
-                alert("Wrong Confirmation");
-                return false;
-            }
-            else{
-                return true;
-            }
-        }
-
-        function checksel() {
-            var s = reg.position.value;
-            if (s=="Choose a position") {
-                alert(s);
-                return false;
-            }
-            else{
-                return checkpass();
-            }
-        }
-    </script>
-
-
-
-</head>
+<?php
+include("../../Includes/Header.php");
+?>
 <body>
 
 <div class="container" id="main">
