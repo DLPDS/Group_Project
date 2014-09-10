@@ -10,27 +10,18 @@
 
 if(isset($_POST['submit'])){
 
+
+    $firstName=$_POST['firstName'];
+    $lastName=$_POST['lastName'];
+    $bDay=$_POST['bDay'];
     $username= $_POST['username'];
-    $username=$dbConnection->escaping($username);
-    $password= $_POST['password'];
-    $password=$dbConnection->escaping($password);
+    $username=$allFunctions->escaping($username);
+    $password= $_POST['passwordName'];
+    $password=$allFunctions->escaping($password);
     $password=md5($password);
     $priority=$_POST['priority'];
 
-    $query="INSERT INTO staff (";
-    $query.="Username,Password,Position";
-    $query.=") VALUES (";
-    $query.="'{$username}','{$password}','{$priority}'";
-    $query.=")";
-    $result=$dbConnection->connecting($query);
-
-    if($result){
-        $allFunctions->redirectTo("signIn.php");
-    }
-    else{
-        //die("Database query Failed");
-        $allFunctions->redirectTo("../HTML/signUp.html");
-    }
+    $allFunctions->registering($firstName,$lastName,$bDay,$username,$password,$priority);
 
 }
 ?>

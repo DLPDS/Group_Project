@@ -16,7 +16,38 @@ if(isset($_POST['submit'])){
    $password= $_POST['password'];
    $password=md5($password);
 
-   $allFunctions->signIn($username,$password);
+   $query="SELECT Position From staff WHERE Username='{$username}' AND Password='{$password}';";
+   $result=$dbConnection->connecting($query);
+
+   if($result){
+       $position="";
+       while($row = mysqli_fetch_array($result,MYSQLI_ASSOC))
+       {
+           $position=$row['Position'];
+       }
+
+       if($position==='Chairman'){
+           $allFunctions->redirectTo("chairman.php");
+       }
+
+       else if($position==='Manager'){
+           $allFunctions->redirectTo("manager.php");
+       }
+
+       else if($position==='Stock Keeper'){
+           $allFunctions->redirectTo("stock_keeper.php");
+       }
+
+       else if($position==='Cashier'){
+           $allFunctions->redirectTo("cashier.php");
+       }
+       else{
+		   $allFunctions->redirectTo("pnm.php");
+       }
+   }
+   else{
+       $allFunctions->redirectTo("signIn.php");
+   }
 }
 ?>
 
@@ -37,6 +68,7 @@ if(isset($_POST['submit'])){
     <section id="content">
         <form action="signIn.php" method="post">
             <h1>Login Form</h1>
+            <p>Invalid usename or password</p>
             <div>
                 <input type="text" placeholder="Username" required="" id="username" name="username" />
             </div>

@@ -1,0 +1,103 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#staffDetails{
+	text-align:center;
+}
+
+#staffDetails img{
+	margin: 0 0 20px;
+}
+
+#stfmember{
+	text-align:center;
+	background:#DEDEDE;
+}
+
+#btnMenu{
+	text-align:center;
+	padding:60px 400px;
+}
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar-brand{
+	padding: 13px 15px;
+}
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#Company .item{height: 570px;
+}
+
+#slide1{
+	background: url('../../images/slide1pic_medium.jpg') top center no-repeat;
+}
+
+#slide2{
+	background: url('../../images/slide2pic_medium.jpg') top center no-repeat;
+}
+
+#slide3{
+	background: url('../../images/slide3pic_medium.jpg') top center no-repeat;
+}
+
+#Company{height: 570px;}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
+
+footer{
+	background: #333;
+	color: #eee;
+	font-size:16px;
+	padding:20px;
+}

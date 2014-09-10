@@ -1,27 +1,12 @@
-<!DOCTYPE html>
-
-<html>
-<head>
-
-    <!-- Website Title & Description for Search Engine purposes -->
-    <title></title>
-    <meta name="description" content="">
-
-    <!-- Mobile viewport optimized -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <!-- Bootstrap CSS -->
-    <link href="Public/CSS/bootstrap.min.css" rel="stylesheet">
-    <link href="Public/CSS/bootstrap-glyphicons.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="Public/CSS/styles.css" rel="stylesheet">
-
-    <!-- Include Modernizr in the head, before any other Javascript -->
-    <script src="Public/JS/modernizr-2.6.2.min.js"></script>
-
-</head>
+<?php
+include("../../Includes/Header.php");
+?>
 <body>
+
+    <script language="javascript">;
+    alert("Save was Successful");
+    </script>;
+
 
 <div class="container" id="main">
     <div class="navbar navbar-fixed-top">
@@ -32,27 +17,27 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class = "navbar-brand" href="#"><img src = "Images/logo.png" alt="My Logo"></a>
+            <a class = "navbar-brand" href="#"><img src = "../../Images/logo.png" alt="My Logo"></a>
             <div class = "nav-collapse collapse navbar-responsive-collapse">
                 <ul class = "nav navbar-nav">
                     <li class= "active"><a href = "#">Home</a></li>
-                    <!--<li><a href = "Public/PHP/manager.php">Manage Profiles</a></li>
+                    <li><a href = "manager.php">Manage Profiles</a></li>
                     <li class="dropdown">
                         <a href = "#" class="dropdown-toggle" data-toggle="dropdown">Reports<strong class="caret"></strong></a>
                         <ul class = "dropdown-menu">
                             <li><a href = "#">View Report</a></li>
                             <li><a href = "#">Send Report</a></li>
-                        </ul><!--end of dropdown menu
-                    </li>-->
+                        </ul><!--end of dropdown menu-->
+                    </li>
                 </ul>
                 <ul class = "nav navbar-nav pull-right">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> SANHINDA<strong class="caret"></strong></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user">Manager<strong class="caret"></strong></a>
                         <ul class="dropdown-menu">
-                            <!--<li><a href="#"><span class="glyphicon glyphicon-cog"> Settings</span></a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-briefcase"> Update Profile</span></a></li>
-                            <li class="divider"></li>-->
-                            <li><a href="Public/PHP/signIn.php"><span class="glyphicon glyphicon-off"> Sign-In</span></a></li><!--methenta home eka link karahan-->
+                            <li><a href="#"><span class="glyphicon glyphicon-cog"> Settings</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-briefcase"> Update Profile</a></li>
+                            <li class="divider"></li>
+                            <li><a href="../../index.html"><span class="glyphicon glyphicon-off"> Sign-Out</a></li><!--methenta home eka link karahan-->
                         </ul>
 
                     </li>
@@ -92,13 +77,13 @@
 <script src="http://code.jquery.com/jquery.js"></script>
 
 <!-- If no online access, fallback to our hardcoded version of jQuery -->
-<script>window.jQuery || document.write('<script src="Public/JS/jquery-1.8.2.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="../JS/jquery-1.8.2.min.js"><\/script>')</script>
 
 <!-- Bootstrap JS -->
-<script src="Public/JS/bootstrap.min.js"></script>
+<script src="../JS/bootstrap.min.js"></script>
 
 <!-- Custom JS -->
-<script src="Public/JS/script.js"></script>
+<script src="../JS/script.js"></script>
 
 </body>
 

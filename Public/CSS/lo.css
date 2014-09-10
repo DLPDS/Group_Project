@@ -17,7 +17,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     background: transparent;
 }
 body {
-    background: #DCDDDF url(http://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);
+    background-image: url('../../images/dsl.jpg') ;
     color: #000;
     font: 14px Arial;
     margin: 0 auto;
@@ -220,4 +220,10 @@ form:after {
     font-size: 12px;
     margin: 30px 15px 0 0;
     text-decoration: underline;
+}
+p{
+    color: red;
+    float:left;
+    margin-left:35px;
+    margin-bottom:8px;
 }
