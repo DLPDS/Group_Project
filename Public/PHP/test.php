@@ -14,7 +14,7 @@ include("../../Includes/Header.php");
                         <li><a href="#"><span class="glyphicon glyphicon-cog"> Settings</a></li>
                         <li><a href="#"><span class="glyphicon glyphicon-briefcase"> Update Profile</a></li>
                         <li class="divider"></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-off"> Sign-Out</a></li><!--methenta home eka link karahan-->
+                        <li><a href="../../index.html"><span class="glyphicon glyphicon-off"> Sign-Out</a></li><!--methenta home eka link karahan-->
                     </ul>
 
                 </li>
@@ -136,108 +136,103 @@ include("../../Includes/Header.php");
     </div>
 </div>
 
-<div>
-    <div class="row" id="btnMenu">
-        <div class="col-sm-4 feature">
-            <a href="#addProfile" role="button" class="btn btn-info" data-toggle="modal" id="addButton">ADD PROFILE</a>
+<div class="row" id="row2">
+    <div class="col-sm-3 feature">
+        <div class="panel">
+            <div class= "panel-heading">
+                <h3 class="panel-title">New Employee</h3>
+            </div>
+            <img src="../../Images/chairman.jpg" alt="HTML5">
+            <div class="col-sm-6">
+                <a href="#addProfile" role="button" class="btn btn-info" data-toggle="modal" id="addButton">ADD PROFILE</a>
+                <div class="modal fade" id="addProfile">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class ="close" data-dismiss="modal">&times;</button>
+                                <h5 class="modal-title">Add Profile</h5>
+                            </div>
 
-            <div class="modal fade" id="addProfile">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button class ="close" data-dismiss="modal">&times;</button>
-                            <h5 class="modal-title">Add Profile</h5>
-                        </div>
-                        <img src="../../Images/chairman.jpg" alt="HTML5">
-                        <div class="modal-body">
-                            <h6>Employee Details Form</h6><!--mekata data base eka link ka balahan-->
-                            <form class="form-horizontal" action="SignUpFormProcessing.php" method="post" name="reg" onsubmit="return checkForm();">
-
-                                <div class="form-group">
-                                    <label class="col-lg-2 control-label" for="first_name">First Name</label>
-                                    <div class="col-lg-10">
-                                        <input class="form-control" id="Name" placeholder="First Name" type="text" required name="firstName">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label class="col-lg-2 control-label" for="Last_name">Last Name</label>
-                                    <div class="col-lg-10">
-                                        <input class="form-control" id="Name" placeholder="Last Name" type="text" required name="lastName">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label class="col-lg-2 control-label" for="Birth_Day">Birth Day</label>
-                                    <div class="col-lg-10">
-                                        <input class="form-control" type="date" placeholder="Birth Day" name="bDay">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label class="col-lg-2 control-label" for="Username">UserName</label>
-                                    <div class="col-lg-4">
-                                        <input class="form-control" id="Name" placeholder="UserName" type="text" name="username" required>
+                            <div class="modal-body">
+                                <h6>Employee Details Form</h6><!--mekata data base eka link ka balahan-->
+                                <form class="form-horizontal"  action="SignUpFormProcessing.php" method="post" name= "reg" onsubmit="return checkForm();"  >
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label" for="first_name">First Name</label>
+                                        <div class="col-lg-10">
+                                            <input class="form-control" id="Name" placeholder="First Name" type="text" required name="firstName">
+                                        </div>
                                     </div>
 
-                                    <label class="col-lg-2 control-label" for="Password">Password</label>
-                                    <div class="col-lg-4">
-                                        <input class="form-control" id="passwordName" placeholder="Password" type="password" name="passwordName" required>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label" for="Last_name">Last Name</label>
+                                        <div class="col-lg-10">
+                                            <input class="form-control" id="Name" placeholder="Lsat Name" type="text" required name="lastName">
+                                        </div>
                                     </div>
-                                </div>
 
-
-
-                                <div class="form-group">
-
-                                </div>
-
-                                <div class="form-group">
-                                    <label class="col-lg-2 control-label" for="Confirm_password">Confirm password</label>
-                                    <div class="col-lg-4">
-                                        <input class="form-control" id="confirmPassword" placeholder="Confirm password" type="password" required name="confirmPassword">
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label" for="Birth_Day">Birth Day</label>
+                                        <div class="col-lg-10">
+                                            <input class="form-control" type="date" placeholder="Birth Day" name="bDay">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-lg-2 control-label" for="Position">Position</label>
-                                    <div class="col-lg-6">
-                                        <select  id='id_title'  name="priority" class="form-control">
-                                            <option selected>Choose a position</option>
-                                            <option>Cashier</option>
-                                            <option>Stock Keeper</option>
-                                            <option>Manager</option>
-                                            <option>Chairman</option>
-                                        </select>
+
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label" for="Username">UserName</label>
+                                        <div class="col-lg-4">
+                                            <input class="form-control" id="Name" placeholder="UserName" type="text" required name="username">
+                                        </div>
+
+                                        <label class="col-lg-2 control-label" for="Password">Password</label>
+                                        <div class="col-lg-4">
+                                            <input class="form-control" id="Age" placeholder="Password" type="password"  required name="passwordName">
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="btn btn-default btn-file">
-                                    Upload Photo<input type="file">
-                                </div>
 
-                                <div class="modal-footer">
-                                    <!--<button class="btn btn-success" name="submit" value="submit" type="submit">Save</button>-->
-                                    <input type="submit" class="btn btn-success" value="Save" name="submit">
-                                    <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
-                                </div>
 
-                            </form>
+                                    <div class="form-group">
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label" for="Confirm_password">Confirm password</label>
+                                        <div class="col-lg-4">
+                                            <input class="form-control" id="Address" placeholder="Confirm password" type="password" required name="confirmPassword">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label" for="Position">Position</label>
+                                        <div class="col-lg-6">
+                                            <select  id='id_title'  name="priority" class="form-control">
+                                                <option selected>Choose a position</option>
+                                                <option>Cashier</option>
+                                                <option>Stock Keeper</option>
+                                                <option>Manager</option>
+                                                <option>Chairman</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="btn btn-default btn-file">
+                                        Upload Photo<input type="file">
+                                    </div>
+
+
+
+                                    <div class="modal-footer" >
+                                        <input type="submit" class="btn btn-success" value="Save" name="submit">
+                                        <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="col-sm-4 feature">
-            <a class="btn btn-warning btn-info">DELETE PROFILE</a>
-        </div>
-
-        <div class="col-sm-4 feature">
-            <a class="btn btn-warning btn-info">UPDATE PROFILE</a>
-        </div>
     </div>
 </div>
-
 
 
 
