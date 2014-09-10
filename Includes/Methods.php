@@ -21,12 +21,12 @@ class Methods {
         return $newName;
     }
 
-    function queryExecute($query){
+    public static function queryExecute($query){
         $result=mysqli_query(Connection::$connection,$query);
         return $result;
     }
 
-    function redirectTo($newLocation){
+    public static function redirectTo($newLocation){
 
         header("Location: ".$newLocation);
         exit;
