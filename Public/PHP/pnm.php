@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
    $password=md5($password);
 
    $query="SELECT Position From staff WHERE Username='{$username}' AND Password='{$password}';";
-   $result=$dbConnection->connecting($query);
+   $result=$allFunctions->queryExecute($query);
 
    if($result){
        $position="";
@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
        }
 
        else if($position==='Manager'){
-           $allFunctions->redirectTo("manager.php");
+           $allFunctions->redirectTo("ManagerClass.php");
        }
 
        else if($position==='Stock Keeper'){
