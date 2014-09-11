@@ -16,7 +16,7 @@ class Methods {
         return $result;
     }
 
-    function escaping($name){
+    public static function escaping($name){
         $newName=mysqli_real_escape_string(Connection::$connection,$name);
         return $newName;
     }
