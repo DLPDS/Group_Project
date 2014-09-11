@@ -8,22 +8,30 @@
 
 class Staff {
 
-    var $firstName;
-    var $lastName;
-    var $bDay;
-    var $username;
-    var $password;
-    var $position;
+    protected  $firstName;
+    protected  $lastName;
+    protected  $bDay;
+    protected  $username;
+    protected  $password;
+    protected  $priority;
 
-    function __construct($fn,$ln,$bd,$un,$pwd,$pos){
+    function __construct(){
 
-        $this->firstName=$fn;
-        $this->lastName=$ln;
-        $this->bDay=$bd;
-        $this->username=$un;
-        $this->password=$pwd;
-        $this->position=$pos;
+        require_once("../../Includes/Connection.php");
+        require_once("../../Includes/Methods.php");
+        $dbConnection=new Connection();
+    }
 
+    function signInForm(){
+
+        if(isset($_POST['submit'])){
+
+            $username= $_POST['username'];
+            $password= $_POST['password'];
+            $password=md5($password);
+
+            self::signIn($username,$password);
+        }
     }
 
     function signIn($username,$password){
@@ -39,7 +47,7 @@ class Staff {
             }
 
             if($position==='Chairman'){
-                Methods::redirectTo("chairman.php");
+                Methods::redirectTo("ChairmanClass.php");
             }
 
             else if($position==='Manager'){
@@ -51,7 +59,7 @@ class Staff {
             }
 
             else if($position==='Cashier'){
-                Methods::redirectTo("cashier.php");
+                Methods::redirectTo("CashierClass.php");
             }
             else{
                 Methods::redirectTo("pnm.php");
