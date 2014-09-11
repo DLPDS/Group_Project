@@ -159,33 +159,33 @@ include("../../Includes/Header.php");
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="first_name">First Name</label>
                                         <div class="col-lg-10">
-                                            <input class="form-control" id="Name" placeholder="First Name" type="text" required name="fi">
+                                            <input class="form-control" id="Name" placeholder="First Name" type="text" required name="firstName">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="Last_name">Last Name</label>
                                         <div class="col-lg-10">
-                                            <input class="form-control" id="Name" placeholder="Lsat Name" type="text" required>
+                                            <input class="form-control" id="Name" placeholder="Lsat Name" type="text" required name="lastName">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="Birth_Day">Birth Day</label>
                                         <div class="col-lg-10">
-                                            <input class="form-control" type="date" placeholder="Birth Day">
+                                            <input class="form-control" type="date" placeholder="Birth Day" name="bDay">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="Username">UserName</label>
                                         <div class="col-lg-4">
-                                            <input class="form-control" id="Name" placeholder="UserName" type="text" required>
+                                            <input class="form-control" id="Name" placeholder="UserName" type="text" required name="username">
                                         </div>
 
                                         <label class="col-lg-2 control-label" for="Password">Password</label>
                                         <div class="col-lg-4">
-                                            <input class="form-control" id="Age" placeholder="Password" type="password" name="password1" required>
+                                            <input class="form-control" id="Age" placeholder="Password" type="password" name="password1" required dirname="passwordName">
                                         </div>
                                     </div>
 
@@ -204,7 +204,7 @@ include("../../Includes/Header.php");
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="Position">Position</label>
                                         <div class="col-lg-6">
-                                            <select  id='id_title'  name="position" class="form-control">
+                                            <select  id='id_title'  name="priority" class="form-control" >
                                                 <option selected>Choose a position</option>
                                                 <option>Cashier</option>
                                                 <option>Stock Keeper</option>
@@ -221,7 +221,7 @@ include("../../Includes/Header.php");
 
 
                                     <div class="modal-footer" >
-                                        <input type="submit" class="btn btn-success" value="Save">
+                                        <input type="submit" class="btn btn-success" value="Save" name="submit">
                                         <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
                                     </div>
                                 </form>
