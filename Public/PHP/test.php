@@ -14,7 +14,7 @@ include("../../Includes/Header.php");
                         <li><a href="#"><span class="glyphicon glyphicon-cog"> Settings</a></li>
                         <li><a href="#"><span class="glyphicon glyphicon-briefcase"> Update Profile</a></li>
                         <li class="divider"></li>
-                        <li><a href="../../index.html"><span class="glyphicon glyphicon-off"> Sign-Out</a></li><!--methenta home eka link karahan-->
+                        <li><a href="#"><span class="glyphicon glyphicon-off"> Sign-Out</a></li><!--methenta home eka link karahan-->
                     </ul>
 
                 </li>
@@ -155,37 +155,37 @@ include("../../Includes/Header.php");
 
                             <div class="modal-body">
                                 <h6>Employee Details Form</h6><!--mekata data base eka link ka balahan-->
-                                <form class="form-horizontal"  action="SignUpFormProcessing.php" method="post" name= "reg" onsubmit="return checkForm();"  >
+                                <form class="form-horizontal" name= "reg" action="SignUpFormProcessing.php"  onsubmit="return checkForm()"  method="post">
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="first_name">First Name</label>
                                         <div class="col-lg-10">
-                                            <input class="form-control" id="Name" placeholder="First Name" type="text" required name="firstName">
+                                            <input class="form-control" id="Name" placeholder="First Name" type="text" required name="fi">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="Last_name">Last Name</label>
                                         <div class="col-lg-10">
-                                            <input class="form-control" id="Name" placeholder="Lsat Name" type="text" required name="lastName">
+                                            <input class="form-control" id="Name" placeholder="Lsat Name" type="text" required>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="Birth_Day">Birth Day</label>
                                         <div class="col-lg-10">
-                                            <input class="form-control" type="date" placeholder="Birth Day" name="bDay">
+                                            <input class="form-control" type="date" placeholder="Birth Day">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="Username">UserName</label>
                                         <div class="col-lg-4">
-                                            <input class="form-control" id="Name" placeholder="UserName" type="text" required name="username">
+                                            <input class="form-control" id="Name" placeholder="UserName" type="text" required>
                                         </div>
 
                                         <label class="col-lg-2 control-label" for="Password">Password</label>
                                         <div class="col-lg-4">
-                                            <input class="form-control" id="Age" placeholder="Password" type="password"  required name="passwordName">
+                                            <input class="form-control" id="Age" placeholder="Password" type="password" name="password1" required>
                                         </div>
                                     </div>
 
@@ -198,13 +198,13 @@ include("../../Includes/Header.php");
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="Confirm_password">Confirm password</label>
                                         <div class="col-lg-4">
-                                            <input class="form-control" id="Address" placeholder="Confirm password" type="password" required name="confirmPassword">
+                                            <input class="form-control" id="Address" placeholder="Confirm password" type="password" required name="conpassword">
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-lg-2 control-label" for="Position">Position</label>
                                         <div class="col-lg-6">
-                                            <select  id='id_title'  name="priority" class="form-control">
+                                            <select  id='id_title'  name="position" class="form-control">
                                                 <option selected>Choose a position</option>
                                                 <option>Cashier</option>
                                                 <option>Stock Keeper</option>
@@ -221,7 +221,7 @@ include("../../Includes/Header.php");
 
 
                                     <div class="modal-footer" >
-                                        <input type="submit" class="btn btn-success" value="Save" name="submit">
+                                        <input type="submit" class="btn btn-success" value="Save">
                                         <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
                                     </div>
                                 </form>
