@@ -1,18 +1,13 @@
-/*
 
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
 
 
 /* --------------------------------------
    Layout
    -------------------------------------- */
+#searchInput{
+    width: 500px;
+}
+
 #staffDetails{
 	text-align:center;
 }
@@ -56,15 +51,15 @@ Notes:	 Hand coded for Udemy.com
 }
 
 #slide1{
-	background: url('../../images/slide1pic_medium.jpg') top center no-repeat;
+	background: url('../../Images/slide1pic_medium.jpg') top center no-repeat;
 }
 
 #slide2{
-	background: url('../../images/slide2pic_medium.jpg') top center no-repeat;
+	background: url('../../Images/slide2pic_medium.jpg') top center no-repeat;
 }
 
 #slide3{
-	background: url('../../images/slide3pic_medium.jpg') top center no-repeat;
+	background: url('../../Images/slide3pic_medium.jpg') top center no-repeat;
 }
 
 #Company{height: 570px;}
