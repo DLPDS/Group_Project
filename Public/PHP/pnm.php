@@ -27,7 +27,7 @@ if(isset($_POST['submit'])){
        }
 
        if($position==='Chairman'){
-           $allFunctions->redirectTo("chairman.php");
+           $allFunctions->redirectTo("chairman.html");
        }
 
        else if($position==='Manager'){
@@ -35,11 +35,11 @@ if(isset($_POST['submit'])){
        }
 
        else if($position==='Stock Keeper'){
-           $allFunctions->redirectTo("stock_keeper.php");
+           $allFunctions->redirectTo("stock_keeper.html");
        }
 
        else if($position==='Cashier'){
-           $allFunctions->redirectTo("cashier.php");
+           $allFunctions->redirectTo("cashier.html");
        }
        else{
 		   $allFunctions->redirectTo("pnm.php");

@@ -57,14 +57,14 @@ class Methods {
         $result=self::queryExecute($query);
 
         if($result){
-            $position="";
+            $position="Not set";
             while($row = mysqli_fetch_array($result,MYSQLI_ASSOC))
             {
                 $position=$row['Position'];
             }
 
             if($position==='Chairman'){
-                self::redirectTo("chairman.php");
+                self::redirectTo("chairman.html");
             }
 
             else if($position==='Manager'){
@@ -72,14 +72,15 @@ class Methods {
             }
 
             else if($position==='Stock Keeper'){
-                self::redirectTo("stock_keeper.php");
+                self::redirectTo("stock_keeper.html");
             }
 
             else if($position==='Cashier'){
-                self::redirectTo("cashier.php");
+                self::redirectTo("cashier.html");
             }
             else{
                 self::redirectTo("pnm.php");
+                //echo($position);
             }
         }
         else{

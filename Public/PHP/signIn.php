@@ -1,23 +1,9 @@
 <?php
-    require_once("../../Includes/Connection.php");
-    require_once("../../Includes/Methods.php");
-    $dbConnection=new Connection();
-    $allFunctions=new Methods();
 
-?>
+require_once("../PHP_CLASSES/Staff.php");
+$SANHINDAStaff= new Staff();
+$SANHINDAStaff->signInForm();
 
-
-<?php
-
-if(isset($_POST['submit'])){
-    //set default value using ternary operator
-    //boolean_test? value_if_true : value_if_false
-   $username= $_POST['username'];
-   $password= $_POST['password'];
-   $password=md5($password);
-
-   $allFunctions->signIn($username,$password);
-}
 ?>
 
 
