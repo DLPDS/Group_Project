@@ -21,7 +21,7 @@ include("../../Includes/Header.php");
             <div class = "nav-collapse collapse navbar-responsive-collapse">
                 <ul class = "nav navbar-nav">
                     <li class= "active"><a href = "#">Home</a></li>
-                    <li><a href = "manager.php">Manage Profiles</a></li>
+                    <li><a href = "../HTML/manager.html">Manage Profiles</a></li>
                     <li class="dropdown">
                         <a href = "#" class="dropdown-toggle" data-toggle="dropdown">Reports<strong class="caret"></strong></a>
                         <ul class = "dropdown-menu">
