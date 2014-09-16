@@ -26,11 +26,13 @@ class Staff {
 
         if(isset($_POST['submit'])){
 
-            $username= $_POST['username'];
-            $password= $_POST['password'];
-            $password=md5($password);
+            $RUsername= $_POST["username"];
+            $RUsername=Methods::escaping($RUsername);
+            $RPassword= $_POST["password"];
+            $RPassword=Methods::escaping($RPassword);
+            $RPassword=md5($RPassword);
 
-            self::signIn($username,$password);
+            self::signIn($RUsername,$RPassword);
         }
     }
 
@@ -43,11 +45,11 @@ class Staff {
             $position="";
             while($row = mysqli_fetch_array($result,MYSQLI_ASSOC))
             {
-                $position=$row['Position'];
+                $position=$row["Position"];
             }
 
             if($position==='Chairman'){
-                Methods::redirectTo("ChairmanClass.php");
+                Methods::redirectTo("chairman.html");
             }
 
             else if($position==='Manager'){
@@ -55,11 +57,11 @@ class Staff {
             }
 
             else if($position==='Stock Keeper'){
-                Methods::redirectTo("stock_keeper.php");
+                Methods::redirectTo("stock_keeper.html");
             }
 
             else if($position==='Cashier'){
-                Methods::redirectTo("CashierClass.php");
+                Methods::redirectTo("cashier.html");
             }
             else{
                 Methods::redirectTo("pnm.php");
