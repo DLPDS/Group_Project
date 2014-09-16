@@ -33,60 +33,7 @@ class Methods {
     }
 
 
-    function registering($firstName,$lastName,$bDay,$username,$password,$priority){
-        $query="INSERT INTO staff (";
-        $query.="First_Name,Last_Name,BirthDay,Username,Password,Position";
-        $query.=") VALUES (";
-        $query.="'{$firstName}','{$lastName}','{$bDay}','{$username}','{$password}','{$priority}'";
-        $query.=")";
 
-        $result=self::queryExecute($query);
-        if($result){
-            self::redirectTo("../PHP/manager main 1.php");
-
-        }
-        else{
-            //die("Database query Failed");
-            self::redirectTo("../PHP/manager main 2.php");
-        }
-    }
-
-    function signIn($username,$password){
-        $query="SELECT Position From staff WHERE Username='{$username}' AND Password='{$password}';";
-
-        $result=self::queryExecute($query);
-
-        if($result){
-            $position="Not set";
-            while($row = mysqli_fetch_array($result,MYSQLI_ASSOC))
-            {
-                $position=$row['Position'];
-            }
-
-            if($position==='Chairman'){
-                self::redirectTo("chairman.html");
-            }
-
-            else if($position==='Manager'){
-                self::redirectTo("manager main.php");
-            }
-
-            else if($position==='Stock Keeper'){
-                self::redirectTo("stock_keeper.html");
-            }
-
-            else if($position==='Cashier'){
-                self::redirectTo("cashier.html");
-            }
-            else{
-                self::redirectTo("pnm.php");
-                //echo($position);
-            }
-        }
-        else{
-            self::redirectTo("signIn.php");
-        }
-    }
     function confirmQuery($resultSet){       //not require
         die("Database query Failed");
     }

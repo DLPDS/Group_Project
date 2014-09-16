@@ -49,19 +49,19 @@ class Staff {
             }
 
             if($position==='Chairman'){
-                Methods::redirectTo("chairman.html");
+                Methods::redirectTo("../HTML/chairman.html");
             }
 
             else if($position==='Manager'){
-                Methods::redirectTo("manager main.php");
+                Methods::redirectTo("../HTML/manager.html");
             }
 
             else if($position==='Stock Keeper'){
-                Methods::redirectTo("stock_keeper.html");
+                Methods::redirectTo("../HTML/stock_keeper.html");
             }
 
             else if($position==='Cashier'){
-                Methods::redirectTo("cashier.html");
+                Methods::redirectTo("../HTML/cashier.html");
             }
             else{
                 Methods::redirectTo("pnm.php");
