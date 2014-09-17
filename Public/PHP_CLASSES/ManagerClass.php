@@ -16,7 +16,7 @@ class ManagerClass extends Staff{
 
     function formProcessing(){
 
-        if(isset($_POST['submit'])){
+        if(isset($_POST['addEmployee'])){
 
 
             $this->firstName=$_POST["firstName"];
@@ -44,12 +44,12 @@ class ManagerClass extends Staff{
 
         $result=Methods::queryExecute($query);
         if($result){
-            Methods::redirectTo("../PHP/manager main 1.php");
+            Methods::redirectTo("manager main 1.php");
 
         }
         else{
             //die("Database query Failed");
-            Methods::redirectTo("../PHP/manager main 2.php");
+            Methods::redirectTo("manager main 2.php");
         }
     }
 

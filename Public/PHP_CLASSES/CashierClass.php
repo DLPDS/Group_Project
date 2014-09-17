@@ -20,7 +20,7 @@ class CashierClass extends Staff {
 
         if(isset($_POST['searching'])){
             $this->searchField=$_POST['bookField'];
-            $query="Select * From staff where First_Name Like '%{$this->searchField}%';";
+            $query="Select * From book where Name Like '%{$this->searchField}%';";
             $result=Methods::queryExecute($query);
             return $result;
         }
