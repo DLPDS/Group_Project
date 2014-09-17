@@ -80,46 +80,39 @@
                                 </div><!--end modal header-->
                                 <div class="modal-body">
                                     <h6>Supplier Details Form</h6>
-                                            <form class="form-horizontal" action="../PHP/addBook.php" method="post">
-
-                                                <div class="form-group">
-                                                    <label class="col-lg-2 control-label" for="ID">Supplier ID</label>
-                                                    <div class="col-lg-4">
-                                                        <input class="form-control" id="ID" placeholder="Supplier ID" type="text" name="supID">
-                                                    </div>
-                                                </div><!--end id form-->
+                                            <form class="form-horizontal" action="../PHP/skFlow.php" method="post">
 
                                                 <div class="form-group">
                                                     <label class="col-lg-2 control-label" for="Name">Name</label>
                                                     <div class="col-lg-10">
-                                                        <input class="form-control" id="Name" placeholder="Supplier Name" type="text" name="supName">
+                                                        <input class="form-control" id="Name" placeholder="Supplier Name" type="text" name="supName" required="">
                                                     </div>
                                                 </div><!--end name form-->
 
                                                 <div class="form-group">
                                                     <label class="col-lg-2 control-label" for="email">Email</label>
                                                     <div class="col-lg-10">
-                                                        <input class="form-control" id="email" placeholder="Email" type="email" name="supMail">
+                                                        <input class="form-control" id="email" placeholder="Email" type="email" name="supMail" required="">
                                                     </div>
                                                 </div><!--end email-->
 
                                                 <div class="form-group">
                                                     <label class="col-lg-2 control-label" for="tel">Telephone</label>
                                                     <div class="col-lg-4">
-                                                        <input class="form-control" id="tel" placeholder="Telephone" type="tel" name="supTel">
+                                                        <input class="form-control" id="tel" placeholder="Telephone" type="number" name="supTel" required="">
                                                     </div>
                                                 </div><!--end tel-->
 
                                                 <div class="form-group">
                                                     <label class="col-lg-2 control-label" for="address">Address</label>
                                                     <div class="col-lg-10">
-                                                        <input class="form-control" id="address" placeholder="Address" type="text" name="supAdd">
+                                                        <input class="form-control" id="address" placeholder="Address" type="text" name="supAdd" required="">
                                                     </div>
                                                 </div><!--end address-->
 
                                                 <div class="modal-footer">
+                                                    <button type="submit" class="btn btn-success" name="addSupplier">Save</button>
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                    <button type="submit" class="btn btn-success" name="addBook">Save</button>
                                                 </div>
 
                                             </form><!--end form-->
@@ -157,33 +150,33 @@
 
                                 <div class="modal-body">
 
-                                    <form class="form-horizontal" action="../PHP/addBook.php" method="post">
+                                    <form class="form-horizontal" action="../PHP/skFlow.php" method="post">
 
                                         <div class="form-group">
                                             <label class="col-lg-2 control-label" for="isbn">ISBN</label>
                                             <div class="col-lg-4">
-                                                <input class="form-control" id="isbn" min=0 placeholder="ISBN" type="number" name="isbn">
+                                                <input class="form-control" id="isbn" min=0 placeholder="ISBN" type="number" name="isbn" required="">
                                             </div>
                                         </div><!--end isbn-->
 
                                         <div class="form-group">
                                             <label class="col-lg-2 control-label" for="title">Book Title</label>
                                             <div class="col-lg-10">
-                                                <input class="form-control" id="title" placeholder="Title" type="text" name="title">
+                                                <input class="form-control" id="title" placeholder="Title" type="text" name="title" required="">
                                             </div>
                                         </div><!--end title-->
 
                                         <div class="form-group">
                                             <label class="col-lg-2 control-label" for="author">Author</label>
                                             <div class="col-lg-10">
-                                                <input class="form-control" id="author" placeholder="Author" type="text" name="author">
+                                                <input class="form-control" id="author" placeholder="Author" type="text" name="author" required="">
                                             </div>
                                         </div><!--end author-->
 
                                         <div class="form-group">
                                             <label class="col-lg-2 control-label" > Catagory</label>
                                             <div class="col-lg-10">
-                                                <select class="form-control" name="cat">
+                                                <select class="form-control" name="cat" required="">
                                                     <option selected>Select a Catagory</option>
                                                     <option>Action & Adventure</option>
                                                     <option>Arts</option>
@@ -208,15 +201,22 @@
                                         </div><!--end catagory-->
 
                                         <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="price">Publisher</label>
+                                            <div class="col-lg-10">
+                                                <input class="form-control"  placeholder="Publisher" type="text" min=0 name="publisher" required="">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
                                             <label class="col-lg-2 control-label" for="price">Price</label>
                                             <div class="col-lg-10">
-                                                <input class="form-control" id="price" placeholder="Price" type="number" min=0 name="price">
+                                                <input class="form-control" id="price" placeholder="Price" type="number" min=0 name="price" required="">
                                             </div>
                                         </div>
 
                                         <div class="modal-footer">
+                                            <button type="submit" class="btn btn-success" name="addBook">Save</button>
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-success" name="BOOKADD">Save</button>
                                         </div>
 
                                     </form><!--end form-->
