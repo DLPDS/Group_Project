@@ -1,7 +1,5 @@
 <?php
 include("../../Includes/Header.php");
-//require_once("../../Includes/Methods.php");
-require_once("../../Includes/Connection.php");
 require_once("../PHP_CLASSES/Staff.php");
 require_once("../PHP_CLASSES/CashierClass.php");
 $SANHINDACashier= new CashierClass();
@@ -81,8 +79,12 @@ if(isset($_POST['searching'])){
                     <div class="thumbnail">
                         <img data-src="#" alt="">
                         <div class="caption">
-                            <h3><?php echo($row['First_Name']); ?></h3>
-                            <h4><?php echo($row['Last_Name']); ?></h4>
+                            <h3> ISBN-><?php echo($row['ISBN']); ?></h3>
+                            <h4> Book Name-><?php echo($row['Name']); ?></h4>
+                            <h4> Author-><?php echo($row['Author']); ?></h4>
+                            <h4> Genre-><?php echo($row['Genre']); ?></h4>
+                            <h4> Publisher-><?php echo($row['Publisher']); ?></h4>
+                            <h4> Price-><?php echo($row['Price']); ?></h4>
                             <p><a href="btn btn-primary" role="button">Book Details</a></p>
                         </div>
                     </div>
