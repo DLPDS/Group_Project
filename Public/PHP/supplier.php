@@ -1,5 +1,9 @@
 <?php
 include("../../Includes/Header.php");
+require_once("../PHP_CLASSES/Staff.php");
+require_once("../PHP_CLASSES/StockKeeperClass.php");
+$SANHINDAStockKeeper= new StockKeeperClass();
+$result=$SANHINDAStockKeeper->viewSuppliers();
 ?>
 <body>
 
@@ -33,6 +37,7 @@ include("../../Includes/Header.php");
     <h4 align="center"><strong>Supplier Details Table</strong></h4>
     <hr>
     <table  class="table table-bordered">
+
         <tr>
             <th width="10%" align="center">Supllier ID</th>
             <th width="25%" align="center">Supplier</th>
@@ -40,6 +45,26 @@ include("../../Includes/Header.php");
             <th width="10%" align="center">Telephone</th>
             <th width="25%" align="center">Address</th>
         </tr>
+
+        <?php
+        if($result){
+        while($row1 = mysqli_fetch_array($result[0],MYSQLI_ASSOC))
+        {
+         $row2 = mysqli_fetch_array($result[1],MYSQLI_ASSOC);
+
+        ?>
+        <tr>
+            <th width="10%" align="center"><?php echo($row1['Supplier_Id']);  ?></th>
+            <th width="25%" align="center"><?php echo($row1['Name']); ?></th>
+            <th width="30%" align="center"><?php echo($row1['Email']); ?></th>
+            <th width="10%" align="center"><?php echo($row2['TelNo']); ?></th>
+            <th width="25%" align="center"><?php echo($row1['Address']); ?></th>
+        </tr>
+
+        <?php
+        }
+        }
+        ?>
 
     </table>
 
