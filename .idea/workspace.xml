@@ -23,25 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StockKeeperClass.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StockKeeperClass.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="4.430851" vertical-offset="0" max-vertical-offset="3196">
+            <state line="187" column="2" selection-start="5393" selection-end="5393" vertical-scroll-proportion="-103.88461" vertical-offset="393" max-vertical-offset="3196">
               <folding>
-                <marker date="1411549500498" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
-                <marker date="1411549500498" expanded="true" signature="1273:1351" placeholder="..." />
-                <marker date="1411549500498" expanded="true" signature="1981:2003" placeholder="INSERT INTO ..." />
-                <marker date="1411549500498" expanded="true" signature="2151:2183" placeholder="INSERT INTO ..." />
-                <marker date="1411549500498" expanded="true" signature="2314:2344" placeholder="INSERT INTO ..." />
-                <marker date="1411549500498" expanded="true" signature="2752:2828" placeholder="..." />
-                <marker date="1411549500498" expanded="true" signature="2951:3031" placeholder="..." />
-                <marker date="1411549500498" expanded="true" signature="3101:3143" placeholder="Select * Fro..supplier..." />
-                <marker date="1411549500498" expanded="true" signature="3164:3200" placeholder="Select TelNo..supplier_telephone..." />
-                <marker date="1411549500498" expanded="true" signature="3221:3251" placeholder="Select * Fro..supplier_address..." />
-                <marker date="1411549500498" expanded="true" signature="3588:3647" placeholder="UPDATE suppl..." />
-                <marker date="1411549500498" expanded="true" signature="3946:4025" placeholder="..." />
-                <marker date="1411549500498" expanded="true" signature="4105:4178" placeholder="..." />
+                <marker date="1411984928653" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
+                <marker date="1411984928653" expanded="true" signature="1273:1351" placeholder="..." />
+                <marker date="1411984928653" expanded="true" signature="1981:2003" placeholder="INSERT INTO ..." />
+                <marker date="1411984928653" expanded="true" signature="2151:2183" placeholder="INSERT INTO ..." />
+                <marker date="1411984928653" expanded="true" signature="2314:2344" placeholder="INSERT INTO ..." />
+                <marker date="1411984928653" expanded="true" signature="2752:2828" placeholder="..." />
+                <marker date="1411984928653" expanded="true" signature="2951:3031" placeholder="..." />
+                <marker date="1411984928653" expanded="true" signature="3101:3143" placeholder="Select * Fro..supplier..." />
+                <marker date="1411984928653" expanded="true" signature="3164:3200" placeholder="Select TelNo..supplier_telephone..." />
+                <marker date="1411984928653" expanded="true" signature="3221:3251" placeholder="Select * Fro..supplier_address..." />
+                <marker date="1411984928653" expanded="true" signature="3588:3647" placeholder="UPDATE suppl..." />
+                <marker date="1411984928653" expanded="true" signature="3946:4025" placeholder="..." />
+                <marker date="1411984928653" expanded="true" signature="4105:4178" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testGitHub.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/testGitHub.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,7 +58,7 @@
       <file leaf-file-name="ManagerClass.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/ManagerClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1717">
+            <state line="94" column="0" selection-start="2864" selection-end="2864" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1717">
               <folding />
             </state>
           </provider>
@@ -58,11 +67,8 @@
       <file leaf-file-name="CashierClass.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/CashierClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="35" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="731">
-              <folding>
-                <marker date="1411193388034" expanded="true" signature="500:599" placeholder="Select * Fro..book..." />
-                <marker date="1411193388034" expanded="true" signature="741:759" placeholder="Select * Fro..book..." />
-              </folding>
+            <state line="37" column="2" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="731">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +76,7 @@
       <file leaf-file-name="manager.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/HTML/manager.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="32" selection-start="6855" selection-end="6855" vertical-scroll-proportion="0.0" vertical-offset="2921" max-vertical-offset="4760">
+            <state line="181" column="32" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.0" vertical-offset="3077" max-vertical-offset="4760">
               <folding />
             </state>
           </provider>
@@ -79,49 +85,8 @@
       <file leaf-file-name="stock_keeper.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/HTML/stock_keeper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="72" selection-start="5356" selection-end="5356" vertical-scroll-proportion="0.0" vertical-offset="1659" max-vertical-offset="5338">
+            <state line="107" column="72" selection-start="5549" selection-end="5549" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="5338">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addPurchase.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/HTML/addPurchase.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5712">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="purchaseDetails.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/PHP/purchaseDetails.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1388" max-vertical-offset="2346">
-              <folding>
-                <marker date="1411696270012" expanded="true" signature="241:4682" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="284:4230" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="327:1430" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="359:1399" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="535:1360" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="592:1341" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="634:1319" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="856:1292" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="1493:1763" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="1876:4221" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="1890:2377" placeholder="..." />
-                <marker date="1411696270012" expanded="false" signature="1927:1944" placeholder="..." />
-                <marker date="1411696270012" expanded="false" signature="1998:2015" placeholder="..." />
-                <marker date="1411696270012" expanded="false" signature="2071:2088" placeholder="..." />
-                <marker date="1411696270012" expanded="false" signature="2143:2160" placeholder="..." />
-                <marker date="1411696270012" expanded="false" signature="2214:2231" placeholder="..." />
-                <marker date="1411696270012" expanded="false" signature="2275:2292" placeholder="..." />
-                <marker date="1411696270012" expanded="false" signature="2334:2351" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="2400:2631" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="2657:2886" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="2911:3140" placeholder="..." />
-                <marker date="1411696270012" expanded="true" signature="3346:4161" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -139,9 +104,7 @@
         <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="55" column="57" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1360">
-              <folding>
-                <marker date="1410878497869" expanded="true" signature="867:949" placeholder="SELECT Posit..staff..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +112,7 @@
       <file leaf-file-name="skFlow.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/PHP/skFlow.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459">
+            <state line="21" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -203,9 +166,9 @@
         <option value="$PROJECT_DIR$/Public/PHP/Search.php" />
         <option value="$PROJECT_DIR$/Public/HTML/manager.html" />
         <option value="$PROJECT_DIR$/Public/HTML/stock_keeper.html" />
-        <option value="$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php" />
         <option value="$PROJECT_DIR$/Public/PHP/supplier.php" />
         <option value="$PROJECT_DIR$/Public/PHP/mFlow.php" />
+        <option value="$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php" />
       </list>
     </option>
   </component>
@@ -255,7 +218,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Group_Project" />
+              <option name="myItemId" value="PROJECT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,17 +228,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Group_Project" />
+              <option name="myItemId" value="PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SANHINDA_SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PROJECT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_CLASSES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -283,7 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Group_Project" />
+              <option name="myItemId" value="PROJECT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -292,52 +265,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SANHINDA_SHOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Group_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SANHINDA_SHOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Group_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SANHINDA_SHOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Group_Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,12 +354,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -454,6 +381,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="57" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/skFlow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP/Search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="22" selection-start="3630" selection-end="3630" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="2397" />
@@ -629,11 +570,6 @@
         <state line="5" column="0" selection-start="55" selection-end="135" vertical-scroll-proportion="0.1486014" vertical-offset="0" max-vertical-offset="1768" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP/stock_keeper - Copy (2).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5355" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP/supplier.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="96" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1666" />
@@ -656,24 +592,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/CashierClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="35" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="731">
-          <folding>
-            <marker date="1411193388034" expanded="true" signature="500:599" placeholder="Select * Fro..book..." />
-            <marker date="1411193388034" expanded="true" signature="741:759" placeholder="Select * Fro..book..." />
-          </folding>
+        <state line="37" column="2" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="731">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/ManagerClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1717">
+        <state line="94" column="0" selection-start="2864" selection-end="2864" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1717">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP/skFlow.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459">
+        <state line="21" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
@@ -685,52 +618,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/HTML/manager.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="32" selection-start="6855" selection-end="6855" vertical-scroll-proportion="0.0" vertical-offset="2921" max-vertical-offset="4760">
+        <state line="181" column="32" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.0" vertical-offset="3077" max-vertical-offset="4760">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/HTML/stock_keeper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="72" selection-start="5356" selection-end="5356" vertical-scroll-proportion="0.0" vertical-offset="1659" max-vertical-offset="5338">
+        <state line="107" column="72" selection-start="5549" selection-end="5549" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="5338">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/HTML/addPurchase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5712">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP/purchaseDetails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1388" max-vertical-offset="2346">
-          <folding>
-            <marker date="1411696270012" expanded="true" signature="241:4682" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="284:4230" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="327:1430" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="359:1399" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="535:1360" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="592:1341" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="634:1319" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="856:1292" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="1493:1763" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="1876:4221" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="1890:2377" placeholder="..." />
-            <marker date="1411696270012" expanded="false" signature="1927:1944" placeholder="..." />
-            <marker date="1411696270012" expanded="false" signature="1998:2015" placeholder="..." />
-            <marker date="1411696270012" expanded="false" signature="2071:2088" placeholder="..." />
-            <marker date="1411696270012" expanded="false" signature="2143:2160" placeholder="..." />
-            <marker date="1411696270012" expanded="false" signature="2214:2231" placeholder="..." />
-            <marker date="1411696270012" expanded="false" signature="2275:2292" placeholder="..." />
-            <marker date="1411696270012" expanded="false" signature="2334:2351" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="2400:2631" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="2657:2886" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="2911:3140" placeholder="..." />
-            <marker date="1411696270012" expanded="true" signature="3346:4161" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,30 +640,35 @@
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="57" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1360">
-          <folding>
-            <marker date="1410878497869" expanded="true" signature="867:949" placeholder="SELECT Posit..staff..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="4.430851" vertical-offset="0" max-vertical-offset="3196">
+        <state line="187" column="2" selection-start="5393" selection-end="5393" vertical-scroll-proportion="-103.88461" vertical-offset="393" max-vertical-offset="3196">
           <folding>
-            <marker date="1411549500498" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
-            <marker date="1411549500498" expanded="true" signature="1273:1351" placeholder="..." />
-            <marker date="1411549500498" expanded="true" signature="1981:2003" placeholder="INSERT INTO ..." />
-            <marker date="1411549500498" expanded="true" signature="2151:2183" placeholder="INSERT INTO ..." />
-            <marker date="1411549500498" expanded="true" signature="2314:2344" placeholder="INSERT INTO ..." />
-            <marker date="1411549500498" expanded="true" signature="2752:2828" placeholder="..." />
-            <marker date="1411549500498" expanded="true" signature="2951:3031" placeholder="..." />
-            <marker date="1411549500498" expanded="true" signature="3101:3143" placeholder="Select * Fro..supplier..." />
-            <marker date="1411549500498" expanded="true" signature="3164:3200" placeholder="Select TelNo..supplier_telephone..." />
-            <marker date="1411549500498" expanded="true" signature="3221:3251" placeholder="Select * Fro..supplier_address..." />
-            <marker date="1411549500498" expanded="true" signature="3588:3647" placeholder="UPDATE suppl..." />
-            <marker date="1411549500498" expanded="true" signature="3946:4025" placeholder="..." />
-            <marker date="1411549500498" expanded="true" signature="4105:4178" placeholder="..." />
+            <marker date="1411984928653" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
+            <marker date="1411984928653" expanded="true" signature="1273:1351" placeholder="..." />
+            <marker date="1411984928653" expanded="true" signature="1981:2003" placeholder="INSERT INTO ..." />
+            <marker date="1411984928653" expanded="true" signature="2151:2183" placeholder="INSERT INTO ..." />
+            <marker date="1411984928653" expanded="true" signature="2314:2344" placeholder="INSERT INTO ..." />
+            <marker date="1411984928653" expanded="true" signature="2752:2828" placeholder="..." />
+            <marker date="1411984928653" expanded="true" signature="2951:3031" placeholder="..." />
+            <marker date="1411984928653" expanded="true" signature="3101:3143" placeholder="Select * Fro..supplier..." />
+            <marker date="1411984928653" expanded="true" signature="3164:3200" placeholder="Select TelNo..supplier_telephone..." />
+            <marker date="1411984928653" expanded="true" signature="3221:3251" placeholder="Select * Fro..supplier_address..." />
+            <marker date="1411984928653" expanded="true" signature="3588:3647" placeholder="UPDATE suppl..." />
+            <marker date="1411984928653" expanded="true" signature="3946:4025" placeholder="..." />
+            <marker date="1411984928653" expanded="true" signature="4105:4178" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/testGitHub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
+          <folding />
         </state>
       </provider>
     </entry>
