@@ -14,3 +14,15 @@ function checkForm() {
     return true;
 
 }
+
+function delete_test(){
+    return confirm("Do you want to delete these information");
+}
+
+function formSuccess(){
+    return confirm("Successfully Submitted ");
+}
+
+function FormFail(){
+    return confirm("Please Try Again");
+}

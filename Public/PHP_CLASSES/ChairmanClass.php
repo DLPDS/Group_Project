@@ -9,9 +9,10 @@
 class ChairmanClass extends Staff{
 
     function __construct(){
-        require_once("../../Includes/Connection.php");
+        /*require_once("../../Includes/Connection.php");
         require_once("../../Includes/Methods.php");
-        $dbConnection=new Connection();
+        $dbConnection=new Connection();*/
+        parent::__Construct();
     }
 
 } 

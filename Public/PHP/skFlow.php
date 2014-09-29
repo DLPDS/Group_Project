@@ -11,6 +11,11 @@ elseif(isset($_POST['addSupplier'])){
     $SANHINDAStockKeeper->addSuppierProcess();
 }
 
+if (isset($_GET["username_d"])){
+    $SANHINDAStockKeeper->delSupplier();
+
+}
+
 
 ?>
 

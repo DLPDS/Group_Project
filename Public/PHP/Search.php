@@ -4,9 +4,13 @@ require_once("../PHP_CLASSES/Staff.php");
 require_once("../PHP_CLASSES/CashierClass.php");
 $SANHINDACashier= new CashierClass();
 $result=null;
+$defaultResult=null;
 
 if(isset($_POST['searching'])){
     $result=$SANHINDACashier->Search();
+}
+else{
+    $defaultResult=$SANHINDACashier->ShowAll();
 }
 
 
@@ -75,24 +79,55 @@ if(isset($_POST['searching'])){
 
             ?>
             <div class="row">
-                <div class="col-8">
-                    <div class="thumbnail">
-                        <img data-src="#" alt="">
-                        <div class="caption">
-                            <h3> ISBN-><?php echo($row['ISBN']); ?></h3>
-                            <h4> Book Name-><?php echo($row['Name']); ?></h4>
-                            <h4> Author-><?php echo($row['Author']); ?></h4>
-                            <h4> Genre-><?php echo($row['Genre']); ?></h4>
-                            <h4> Publisher-><?php echo($row['Publisher']); ?></h4>
-                            <h4> Price-><?php echo($row['Price']); ?></h4>
-                            <p><a href="btn btn-primary" role="button">Book Details</a></p>
-                        </div>
-                    </div>
-                </div>
-             </div>
+                <div class="col-4">
+					<h3> ISBN:<?php echo($row['ISBN']); ?></h3>
+                    <h4> Book Name:<?php echo($row['Name']); ?></h4>
+                    <h4> Author:<?php echo($row['Author']); ?></h4>
+                    <h4> Genre:<?php echo($row['Genre']); ?></h4>
+                    <h4> Publisher:<?php echo($row['Publisher']); ?></h4>
+                    <h4> Price:<?php echo($row['Price']); ?></h4>
+				</div>
+				
+				<div class= "col-6">
+					<div class="thumbnail">
+						<img src="../../Covers/<?php echo($row['Image_Loc'])?>">
+					</div>
+				</div>
+                
+            </div>
+			<hr>
+        </div>
 
            <?php
            }
+           }
+
+           else{
+               while($row = mysqli_fetch_array($defaultResult,MYSQLI_ASSOC))
+               {
+                   ?>
+                <div class="row">
+					<div class="col-6">
+						<h3> ISBN:<?php echo($row['ISBN']); ?></h3>
+						<h4> Book Name:<?php echo($row['Name']); ?></h4>
+						<h4> Author:<?php echo($row['Author']); ?></h4>
+						<h4> Genre:<?php echo($row['Genre']); ?></h4>
+						<h4> Publisher:<?php echo($row['Publisher']); ?></h4>
+						<h4> Price:<?php echo($row['Price']); ?></h4>
+					</div>
+				
+					<div class= "col-6">
+						<div class="thumbnail">
+							<img src="../../Covers/<?php echo($row['Image_Loc'])?>">
+						</div>
+					</div>
+					
+				</div>
+				
+				<hr>
+
+               <?php
+               }
            }
            ?>
 

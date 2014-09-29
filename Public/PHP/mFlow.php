@@ -7,4 +7,8 @@ if(isset($_POST['addEmployee'])){
     $SANHINDAManager->formProcessing();
 }
 
+if(isset($_POST['upload'])){
+    $SANHINDAManager->uploadPhoto();
+}
+
 ?>
