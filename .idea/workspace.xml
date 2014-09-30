@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StockKeeperClass.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StockKeeperClass.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="-96.11539" vertical-offset="0" max-vertical-offset="3196">
+            <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="4.576923" vertical-offset="0" max-vertical-offset="3196">
               <folding>
                 <marker date="1412098219855" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
                 <marker date="1412098219855" expanded="true" signature="1273:1351" placeholder="..." />
@@ -42,15 +42,6 @@
                 <marker date="1412098219855" expanded="true" signature="3946:4025" placeholder="..." />
                 <marker date="1412098219855" expanded="true" signature="4105:4178" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shshi test.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Public/PHP/Shshi test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -641,7 +632,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="-96.11539" vertical-offset="0" max-vertical-offset="3196">
+        <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="4.576923" vertical-offset="0" max-vertical-offset="3196">
           <folding>
             <marker date="1412098219855" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
             <marker date="1412098219855" expanded="true" signature="1273:1351" placeholder="..." />
@@ -657,13 +648,6 @@
             <marker date="1412098219855" expanded="true" signature="3946:4025" placeholder="..." />
             <marker date="1412098219855" expanded="true" signature="4105:4178" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP/Shshi test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
-          <folding />
         </state>
       </provider>
     </entry>
