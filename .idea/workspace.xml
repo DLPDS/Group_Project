@@ -22,7 +22,120 @@
     <favorites_list name="SANHINDA_SHOP" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="addPurchase.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/HTML/addPurchase.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5712">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cashier.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/HTML/cashier.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="169" selection-start="1963" selection-end="1963" vertical-scroll-proportion="-7.0384617" vertical-offset="633" max-vertical-offset="2023">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chairman.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/HTML/chairman.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="113" selection-start="2644" selection-end="2644" vertical-scroll-proportion="-7.0384617" vertical-offset="752" max-vertical-offset="2040">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/HTML/manager.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="168" column="38" selection-start="6014" selection-end="6014" vertical-scroll-proportion="-79.5" vertical-offset="789" max-vertical-offset="4743">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stock_keeper.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/HTML/stock_keeper.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="106" column="90" selection-start="5462" selection-end="5462" vertical-scroll-proportion="-14.846154" vertical-offset="1416" max-vertical-offset="5338">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/manager main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="2" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1683">
+              <folding>
+                <marker date="1411984928637" expanded="true" signature="52:3561" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="87:2243" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="129:2218" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="161:2186" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="283:493" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="671:2148" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="717:1314" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="894:1292" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="1075:1239" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="1371:2129" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="1413:2107" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="1629:2080" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="2309:3033" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="2347:2584" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="2619:2785" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="3571:3764" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="3599:3754" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="3627:3743" placeholder="..." />
+                <marker date="1411984928637" expanded="true" signature="3662:3728" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="57" selection-start="1407" selection-end="1407" vertical-scroll-proportion="-7.1538463" vertical-offset="664" max-vertical-offset="1275">
+              <folding>
+                <marker date="1411984928653" expanded="true" signature="867:949" placeholder="SELECT Posit..staff..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stock_keeper - Copy.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/stock_keeper - Copy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="5355">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kushan.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/JS/Kushan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="36" selection-start="582" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stock_keeper - Copy (2).html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/stock_keeper - Copy (2).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.307693" vertical-offset="320" max-vertical-offset="5355">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -68,14 +181,14 @@
         <option value="$PROJECT_DIR$/Public/PHP/skFlow.php" />
         <option value="$PROJECT_DIR$/Public/PHP_CLASSES/ManagerClass.php" />
         <option value="$PROJECT_DIR$/Public/PHP/Search.php" />
-        <option value="$PROJECT_DIR$/Public/HTML/manager.html" />
-        <option value="$PROJECT_DIR$/Public/HTML/stock_keeper.html" />
         <option value="$PROJECT_DIR$/Public/PHP/mFlow.php" />
         <option value="$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php" />
         <option value="$PROJECT_DIR$/Public/PHP/supplier.php" />
         <option value="$PROJECT_DIR$/Public/PHP/update_ac.php" />
         <option value="$PROJECT_DIR$/Public/PHP/update.php" />
         <option value="$PROJECT_DIR$/Public/PHP/list_records.php" />
+        <option value="$PROJECT_DIR$/Public/HTML/manager.html" />
+        <option value="$PROJECT_DIR$/Public/HTML/stock_keeper.html" />
       </list>
     </option>
   </component>
@@ -193,6 +306,10 @@
               <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -209,6 +326,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SANHINDA_SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,21 +469,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Public/CSS/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Includes/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP/signIn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1496" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Includes/Connection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="7" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="663" />
@@ -453,16 +569,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="79560" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/HTML/cashier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="169" selection-start="1963" selection-end="1963" vertical-scroll-proportion="-7.0384617" vertical-offset="633" max-vertical-offset="2023" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/HTML/chairman.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="113" selection-start="2644" selection-end="2644" vertical-scroll-proportion="-7.0384617" vertical-offset="752" max-vertical-offset="2040" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/CSS/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751" />
@@ -483,11 +589,6 @@
         <state line="77" column="48" selection-start="3440" selection-end="3440" vertical-scroll-proportion="0.0" vertical-offset="1468" max-vertical-offset="2040" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/JS/Kushan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="582" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/ChairmanClass.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="30" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391" />
@@ -498,23 +599,11 @@
         <state line="37" column="2" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="731" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/HTML/stock_keeper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="72" selection-start="5549" selection-end="5549" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="5338">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Includes/Connection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="527">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="57" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP/testGitHub.php">
@@ -620,20 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/HTML/manager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="32" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.0" vertical-offset="3077" max-vertical-offset="4760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP/manager main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.5174825" vertical-offset="330" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP/manager main 2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="33" selection-start="171" selection-end="171" vertical-scroll-proportion="0.29195803" vertical-offset="3" max-vertical-offset="1768">
@@ -644,6 +719,98 @@
     <entry file="file://$PROJECT_DIR$/Public/PHP/manager main 1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="2" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.7517482" vertical-offset="1036" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/manager main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1683">
+          <folding>
+            <marker date="1411984928637" expanded="true" signature="52:3561" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="87:2243" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="129:2218" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="161:2186" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="283:493" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="671:2148" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="717:1314" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="894:1292" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="1075:1239" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="1371:2129" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="1413:2107" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="1629:2080" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="2309:3033" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="2347:2584" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="2619:2785" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="3571:3764" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="3599:3754" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="3627:3743" placeholder="..." />
+            <marker date="1411984928637" expanded="true" signature="3662:3728" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="57" selection-start="1407" selection-end="1407" vertical-scroll-proportion="-7.1538463" vertical-offset="664" max-vertical-offset="1275">
+          <folding>
+            <marker date="1411984928653" expanded="true" signature="867:949" placeholder="SELECT Posit..staff..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/stock_keeper - Copy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/JS/Kushan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="36" selection-start="582" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/stock_keeper - Copy (2).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.307693" vertical-offset="320" max-vertical-offset="5355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="38" selection-start="6014" selection-end="6014" vertical-scroll-proportion="-79.5" vertical-offset="789" max-vertical-offset="4743">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/stock_keeper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="90" selection-start="5462" selection-end="5462" vertical-scroll-proportion="-14.846154" vertical-offset="1416" max-vertical-offset="5338">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/chairman.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="113" selection-start="2644" selection-end="2644" vertical-scroll-proportion="-7.0384617" vertical-offset="752" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/cashier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="169" selection-start="1963" selection-end="1963" vertical-scroll-proportion="-7.0384617" vertical-offset="633" max-vertical-offset="2023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/addPurchase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5712">
           <folding />
         </state>
       </provider>
