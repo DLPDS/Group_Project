@@ -23,43 +23,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StockKeeperClass.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StockKeeperClass.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="4.576923" vertical-offset="0" max-vertical-offset="3196">
+            <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="-0.0" vertical-offset="2584" max-vertical-offset="3281">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager main 1.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/manager main 1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="49" selection-start="1295" selection-end="1295" vertical-scroll-proportion="-0.0" vertical-offset="476" max-vertical-offset="1768">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updatestaff.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/updatestaff.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="2" selection-start="734" selection-end="734" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
               <folding>
-                <marker date="1412098219855" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
-                <marker date="1412098219855" expanded="true" signature="1273:1351" placeholder="..." />
-                <marker date="1412098219855" expanded="true" signature="1981:2003" placeholder="INSERT INTO ..." />
-                <marker date="1412098219855" expanded="true" signature="2151:2183" placeholder="INSERT INTO ..." />
-                <marker date="1412098219855" expanded="true" signature="2314:2344" placeholder="INSERT INTO ..." />
-                <marker date="1412098219855" expanded="true" signature="2752:2828" placeholder="..." />
-                <marker date="1412098219855" expanded="true" signature="2951:3031" placeholder="..." />
-                <marker date="1412098219855" expanded="true" signature="3101:3143" placeholder="Select * Fro..supplier..." />
-                <marker date="1412098219855" expanded="true" signature="3164:3200" placeholder="Select TelNo..supplier_telephone..." />
-                <marker date="1412098219855" expanded="true" signature="3221:3251" placeholder="Select * Fro..supplier_address..." />
-                <marker date="1412098219855" expanded="true" signature="3588:3647" placeholder="UPDATE suppl..." />
-                <marker date="1412098219855" expanded="true" signature="3946:4025" placeholder="..." />
-                <marker date="1412098219855" expanded="true" signature="4105:4178" placeholder="..." />
+                <marker date="1412437515777" expanded="true" signature="397:576" placeholder="UPDATE staff..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManagerClass.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/ManagerClass.php">
+      <file leaf-file-name="viewstaff.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/viewstaff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1717">
-              <folding />
+            <state line="50" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="-19.692308" vertical-offset="338" max-vertical-offset="952">
+              <folding>
+                <marker date="1412437561227" expanded="true" signature="144:163" placeholder="SELECT * FRO..staff..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CashierClass.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/CashierClass.php">
+      <file leaf-file-name="editstaff.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/editstaff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="35" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="731">
-              <folding />
+            <state line="90" column="0" selection-start="2367" selection-end="2367" vertical-scroll-proportion="2.8021977" vertical-offset="0" max-vertical-offset="1632">
+              <folding>
+                <marker date="1412437584515" expanded="true" signature="255:303" placeholder="SELECT * FRO..staff..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,15 +114,6 @@
         <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="55" column="57" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skFlow.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/PHP/skFlow.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -169,6 +170,13 @@
         <option value="$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php" />
         <option value="$PROJECT_DIR$/Public/PHP/supplier.php" />
         <option value="$PROJECT_DIR$/Public/PHP/mFlow.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/edit.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/list_records.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/update.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/update_ac.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/updatestaff.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/viewstaff.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/editstaff.php" />
       </list>
     </option>
   </component>
@@ -204,6 +212,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,9 +263,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SANHINDA_SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PROJECT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,16 +345,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1347" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="10" y="0" width="1347" height="728" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17956424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17956424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -340,12 +363,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -367,16 +389,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Public/CSS/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Includes/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="561" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP/signIn.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="11" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1496" />
@@ -512,11 +524,6 @@
         <state line="35" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1326" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP/manager main 1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1768" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="48" selection-start="3440" selection-end="3440" vertical-scroll-proportion="0.0" vertical-offset="1468" max-vertical-offset="2040" />
@@ -564,23 +571,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/CashierClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="35" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="731">
-          <folding />
-        </state>
+        <state line="32" column="35" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/ManagerClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1717">
-          <folding />
-        </state>
+        <state line="87" column="0" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1717" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP/skFlow.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="16" column="1" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP/mFlow.php">
@@ -618,9 +619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Includes/Connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
@@ -632,21 +631,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="4.576923" vertical-offset="0" max-vertical-offset="3196">
+        <state line="152" column="39" selection-start="4372" selection-end="4372" vertical-scroll-proportion="0.0" vertical-offset="2584" max-vertical-offset="3281">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/manager main 1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="49" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/updatestaff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="2" selection-start="734" selection-end="734" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
           <folding>
-            <marker date="1412098219855" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
-            <marker date="1412098219855" expanded="true" signature="1273:1351" placeholder="..." />
-            <marker date="1412098219855" expanded="true" signature="1981:2003" placeholder="INSERT INTO ..." />
-            <marker date="1412098219855" expanded="true" signature="2151:2183" placeholder="INSERT INTO ..." />
-            <marker date="1412098219855" expanded="true" signature="2314:2344" placeholder="INSERT INTO ..." />
-            <marker date="1412098219855" expanded="true" signature="2752:2828" placeholder="..." />
-            <marker date="1412098219855" expanded="true" signature="2951:3031" placeholder="..." />
-            <marker date="1412098219855" expanded="true" signature="3101:3143" placeholder="Select * Fro..supplier..." />
-            <marker date="1412098219855" expanded="true" signature="3164:3200" placeholder="Select TelNo..supplier_telephone..." />
-            <marker date="1412098219855" expanded="true" signature="3221:3251" placeholder="Select * Fro..supplier_address..." />
-            <marker date="1412098219855" expanded="true" signature="3588:3647" placeholder="UPDATE suppl..." />
-            <marker date="1412098219855" expanded="true" signature="3946:4025" placeholder="..." />
-            <marker date="1412098219855" expanded="true" signature="4105:4178" placeholder="..." />
+            <marker date="1412437515777" expanded="true" signature="397:576" placeholder="UPDATE staff..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/viewstaff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="-19.692308" vertical-offset="338" max-vertical-offset="952">
+          <folding>
+            <marker date="1412437561227" expanded="true" signature="144:163" placeholder="SELECT * FRO..staff..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/editstaff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="2367" selection-end="2367" vertical-scroll-proportion="2.8021977" vertical-offset="0" max-vertical-offset="1632">
+          <folding>
+            <marker date="1412437584515" expanded="true" signature="255:303" placeholder="SELECT * FRO..staff..." />
           </folding>
         </state>
       </provider>
