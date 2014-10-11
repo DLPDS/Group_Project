@@ -14,12 +14,18 @@ class Staff {
     protected  $username;
     protected  $password;
     protected  $priority;
+    public  $methods;
+    public $session;
+
 
     function __construct(){
 
+        require_once("../../Includes/Session.php");
         require_once("../../Includes/Connection.php");
         require_once("../../Includes/Methods.php");
+        $this->session=new Session();
         $dbConnection=new Connection();
+        $this->methods=new Methods();
     }
 
     function signInForm(){
@@ -53,7 +59,7 @@ class Staff {
             }
 
             else if($position==='Manager'){
-                Methods::redirectTo("../HTML/manager.html");
+                Methods::redirectTo("../HTML/manager main.html");
             }
 
             else if($position==='Stock Keeper'){
@@ -64,10 +70,12 @@ class Staff {
                 Methods::redirectTo("../HTML/cashier.html");
             }
             else{
-                Methods::redirectTo("pnm.php");
+                $_SESSION['message']="Invalid Username or Password";
+                Methods::redirectTo("signIn.php");
             }
         }
         else{
+            $_SESSION['message']="Query execution failed";
             Methods::redirectTo("signIn.php");
         }
     }

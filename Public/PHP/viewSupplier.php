@@ -1,7 +1,7 @@
 <?php
-include("../../Includes/Header.php");
 require_once("../PHP_CLASSES/Staff.php");
 require_once("../PHP_CLASSES/StockKeeperClass.php");
+include("../../Includes/Header.php");
 $SANHINDAStockKeeper= new StockKeeperClass();
 $result=$SANHINDAStockKeeper->viewSuppliers();
 
@@ -34,6 +34,8 @@ $result=$SANHINDAStockKeeper->viewSuppliers();
     <hr>
     <hr>
     <hr>
+
+    <?php echo($SANHINDAStockKeeper->session->messageDisplay()); ?>
 
     <h4 align="center"><strong>Supplier Details Table</strong></h4>
     <hr>

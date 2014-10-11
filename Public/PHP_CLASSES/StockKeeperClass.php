@@ -9,7 +9,6 @@
 class StockKeeperClass extends Staff {
 
 
-
     function __construct(){
       /*  require_once("../../Includes/Connection.php");
         require_once("../../Includes/Methods.php");
@@ -32,6 +31,7 @@ class StockKeeperClass extends Staff {
 
             self::addNewBook($isbn,$bookName,$author,$genre,$bookPublisher,$bookPrice);
             self::uploadPhoto($isbn);
+
         }
 
     }
@@ -45,9 +45,8 @@ class StockKeeperClass extends Staff {
 
         $result=Methods::queryExecute($query);
         if(!$result){
-            echo("<script type=\"text/javascript\">
-                alert(\"Save was not Successful\");
-                </script>");
+            $_SESSION['message']="Insertion Book query failed";
+            Methods::redirectTo('stock_keeper.php');
 
         }
 
@@ -98,15 +97,12 @@ class StockKeeperClass extends Staff {
         $result3=Methods::queryExecute($query3);
         if($result1==true && $result2==true && $result3){
 
-            echo("<script type=\"text/javascript\">
-                confirm(\"Save was Successful\");
-                </script>");
+            $_SESSION['message']="added one supplier";
+            Methods::redirectTo('stock_keeper.php');
         }
         else{
-            //die("Database query Failed");
-            echo("<script type=\"text/javascript\">
-                confirm(\"Save was not Successful\");
-                </script>");
+            $_SESSION['message']="supplier insertion failed";
+            Methods::redirectTo('stock_keeper.php');
         }
     }
 
@@ -134,16 +130,13 @@ class StockKeeperClass extends Staff {
         //$result2=Methods::queryExecute($query2);
         if($result1)
         {
-
-            echo("<script type=\"text/javascript\">
-                confirm(\"Successfully Submitted\");
-                </script>");
+            $_SESSION['message']="Supplier Black_List";
+            Methods::redirectTo('viewSupplier.php');
         }
         else{
 
-            echo("<script type=\"text/javascript\">
-                confirm(\"Please Try Again\");
-                </script>");
+            $_SESSION['message']="Supplier Deletion Fail";
+            Methods::redirectTo('viewSupplier.php');
         }
     }
 
@@ -171,10 +164,12 @@ class StockKeeperClass extends Staff {
             $result=Methods::queryExecute($query);
 
             if($result){
-                Methods::redirectTo("stock_keeper - Copy.html");
+                $_SESSION['message']="One book added";
+                Methods::redirectTo('stock_keeper.php');
             }
             else{
-                Methods::redirectTo("stock_keeper - Copy (2).html");
+                $_SESSION['message']="Image uploading process has a problem";
+                Methods::redirectTo('stock_keeper.php');
             }
 
 
