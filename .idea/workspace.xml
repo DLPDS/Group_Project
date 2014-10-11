@@ -61,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Staff.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Staff.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="17" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.6861702" vertical-offset="735" max-vertical-offset="1411">
+            <state line="71" column="17" selection-start="1869" selection-end="1869" vertical-scroll-proportion="-14.884615" vertical-offset="735" max-vertical-offset="1411">
               <folding>
                 <marker date="1413056970218" expanded="true" signature="1039:1121" placeholder="SELECT Posit..staff..." />
               </folding>
@@ -108,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mFlow.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mFlow.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/PHP/mFlow.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
+            <state line="9" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.2712766" vertical-offset="0" max-vertical-offset="564">
               <folding />
             </state>
           </provider>
@@ -410,8 +410,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1374" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-11" y="0" width="1374" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -420,7 +420,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18114875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18114875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -659,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP/mFlow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/HTML/manager.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="181" column="12" selection-start="6922" selection-end="6922" vertical-scroll-proportion="0.0" vertical-offset="2694" max-vertical-offset="4743">
@@ -728,10 +721,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="17" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.6861702" vertical-offset="735" max-vertical-offset="1411">
+        <state line="71" column="17" selection-start="1869" selection-end="1869" vertical-scroll-proportion="-14.884615" vertical-offset="735" max-vertical-offset="1411">
           <folding>
             <marker date="1413056970218" expanded="true" signature="1039:1121" placeholder="SELECT Posit..staff..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/mFlow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.2712766" vertical-offset="0" max-vertical-offset="564">
+          <folding />
         </state>
       </provider>
     </entry>
