@@ -23,24 +23,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="editBookManually.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/PHP/editBookManually.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="33" column="52" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.21880342" vertical-offset="433" max-vertical-offset="1802">
+=======
+      <file leaf-file-name="Search.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/Search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="7076" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2975">
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="globaltest.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/PHP/globaltest.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="50" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="612">
               <folding />
+=======
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/CSS/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="144" column="1" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0" vertical-offset="2448" max-vertical-offset="2550">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="StockKeeperClass.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="174" column="0" selection-start="5339" selection-end="5339" vertical-scroll-proportion="0.0" vertical-offset="2958" max-vertical-offset="4233">
+              <folding>
+                <marker date="1413324602488" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
+                <marker date="1413324602488" expanded="true" signature="1965:1987" placeholder="INSERT INTO ..." />
+                <marker date="1413324602488" expanded="true" signature="2135:2167" placeholder="INSERT INTO ..." />
+                <marker date="1413324602488" expanded="true" signature="2298:2328" placeholder="INSERT INTO ..." />
+                <marker date="1413324602488" expanded="true" signature="3000:3042" placeholder="Select * Fro..supplier..." />
+                <marker date="1413324602488" expanded="true" signature="3063:3099" placeholder="Select TelNo..supplier_telephone..." />
+                <marker date="1413324602488" expanded="true" signature="3120:3150" placeholder="Select * Fro..supplier_address..." />
+                <marker date="1413324602488" expanded="true" signature="3487:3546" placeholder="UPDATE suppl..." />
+                <marker date="1413324602488" expanded="true" signature="5716:5897" placeholder="UPDATE book ..." />
+                <marker date="1413324602488" expanded="true" signature="6534:6689" placeholder="UPDATE book ..." />
+                <marker date="1413324602488" expanded="true" signature="7038:7088" placeholder="UPDATE book ..." />
+              </folding>
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="name.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/PHP/name.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,10 +85,79 @@
               <folding>
                 <marker date="1413275280681" expanded="true" signature="284:320" placeholder="SELECT * FRO..book..." />
               </folding>
+=======
+      <file leaf-file-name="bookDetails.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/bookDetails.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="4" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2091">
+              <folding />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="Session.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Includes/Session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="26" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signIn.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP/signIn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="23" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/JS/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kushan.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/JS/Kushan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="33" selection-start="1067" selection-end="1074" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1156">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="52" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.22887324" vertical-offset="822" max-vertical-offset="1411">
+              <folding>
+                <marker date="1413253544707" expanded="true" signature="1039:1121" placeholder="SELECT Posit..staff..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CashierClass.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/CashierClass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="53" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="731">
+              <folding>
+                <marker date="1413322827531" expanded="true" signature="500:599" placeholder="Select * Fro..book..." />
+                <marker date="1413322827531" expanded="true" signature="741:779" placeholder="Select * Fro..book..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
     </leaf>
   </component>
   <component name="FindManager">
@@ -62,7 +168,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/index.html" />
+=======
+        <option value="$PROJECT_DIR$/Public/PHP/signUp.html" />
+        <option value="$PROJECT_DIR$/Includes/Functions.php" />
+        <option value="$PROJECT_DIR$/Includes/Conection.php" />
+        <option value="$PROJECT_DIR$/Public/JS/modernizr-2.6.2.min.js" />
+        <option value="$PROJECT_DIR$/Public/HTML/signUp.html" />
+        <option value="$PROJECT_DIR$/Includes/Header.php" />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
         <option value="$PROJECT_DIR$/Includes/Footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Public/PHP/chairman.php" />
@@ -73,33 +188,35 @@
         <option value="$PROJECT_DIR$/Includes/Connection.php" />
         <option value="$PROJECT_DIR$/Public/PHP/pnm.php" />
         <option value="$PROJECT_DIR$/Public/PHP/cashier.php" />
-        <option value="$PROJECT_DIR$/Public/CSS/lo.css" />
-        <option value="$PROJECT_DIR$/Public/HTML/cashier.html" />
+        <option value="$PROJECT_DIR$/Public/PHP/stock_keeper.php" />
         <option value="$PROJECT_DIR$/Public/HTML/chairman.html" />
         <option value="$PROJECT_DIR$/Public/PHP/test.php" />
         <option value="$PROJECT_DIR$/Public/HTML/manager.php" />
-        <option value="$PROJECT_DIR$/Public/CSS/styles.css" />
         <option value="$PROJECT_DIR$/Public/PHP/addBook.php" />
+        <option value="$PROJECT_DIR$/Includes/Methods.php" />
         <option value="$PROJECT_DIR$/Public/PHP_CLASSES/ChairmanClass.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Public/PHP_CLASSES/CashierClass.php" />
         <option value="$PROJECT_DIR$/Public/PHP/Search.php" />
+=======
+        <option value="$PROJECT_DIR$/Public/PHP_CLASSES/ManagerClass.php" />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
         <option value="$PROJECT_DIR$/Public/PHP/supplier.php" />
-        <option value="$PROJECT_DIR$/Public/PHP/update_ac.php" />
-        <option value="$PROJECT_DIR$/Public/PHP/update.php" />
-        <option value="$PROJECT_DIR$/Public/PHP/list_records.php" />
-        <option value="$PROJECT_DIR$/Includes/Session1.php" />
-        <option value="$PROJECT_DIR$/Includes/Methods.php" />
-        <option value="$PROJECT_DIR$/Includes/Session.php" />
-        <option value="$PROJECT_DIR$/Public/PHP/viewSupplier.php" />
-        <option value="$PROJECT_DIR$/Public/HTML/manager main.html" />
-        <option value="$PROJECT_DIR$/Public/HTML/stock_keeper.html" />
         <option value="$PROJECT_DIR$/Public/PHP/mFlow.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Public/HTML/manager.html" />
         <option value="$PROJECT_DIR$/Public/PHP/manager.php" />
         <option value="$PROJECT_DIR$/Public/PHP_CLASSES/ManagerClass.php" />
         <option value="$PROJECT_DIR$/Public/PHP/stock_keeper.php" />
+=======
+        <option value="$PROJECT_DIR$/Public/PHP/viewstaff.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
         <option value="$PROJECT_DIR$/Public/PHP/signIn.php" />
+        <option value="$PROJECT_DIR$/Public/CSS/lo.css" />
+        <option value="$PROJECT_DIR$/Public/PHP/manager.php" />
         <option value="$PROJECT_DIR$/Public/PHP_CLASSES/Staff.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Test/test" />
         <option value="$PROJECT_DIR$/Test/test.html" />
         <option value="$PROJECT_DIR$/Test/test.js" />
@@ -113,10 +230,31 @@
         <option value="$PROJECT_DIR$/Public/JS/name.php" />
         <option value="$PROJECT_DIR$/Public/PHP/editBookManually.php" />
         <option value="$PROJECT_DIR$/Public/PHP/globaltest.js" />
+=======
+        <option value="$PROJECT_DIR$/Public/HTML/manager.html" />
+        <option value="$PROJECT_DIR$/Public/HTML/cashier.html" />
+        <option value="$PROJECT_DIR$/Public/PHP/viewStaff.php" />
+        <option value="$PROJECT_DIR$/Public/HTML/stock_keeper.html" />
+        <option value="$PROJECT_DIR$/Includes/Session.php" />
+        <option value="$PROJECT_DIR$/Public/JS/Kushan.js" />
+        <option value="$PROJECT_DIR$/Public/JS/book.php" />
+        <option value="$PROJECT_DIR$/Public/HTML/addSale - Stock Keeper .html" />
+        <option value="$PROJECT_DIR$/Public/HTML/addSale - Cashier.html" />
+        <option value="$PROJECT_DIR$/Public/HTML/book.php" />
+        <option value="$PROJECT_DIR$/Public/HTML/addPurchase.html" />
+        <option value="$PROJECT_DIR$/Public/PHP_CLASSES/CashierClass.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/skFlow.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/Search.php" />
+        <option value="$PROJECT_DIR$/Public/PHP/editbook.php" />
+        <option value="$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php" />
+        <option value="$PROJECT_DIR$/Public/CSS/styles.css" />
+        <option value="$PROJECT_DIR$/Public/JS/script.js" />
+        <option value="$PROJECT_DIR$/Public/PHP/bookDetails.php" />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php_from_wamp" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Php" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -164,7 +302,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PROJECT" />
+              <option name="myItemId" value="a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -174,7 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PROJECT" />
+              <option name="myItemId" value="a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -192,7 +330,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PROJECT" />
+              <option name="myItemId" value="a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -210,7 +348,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PROJECT" />
+              <option name="myItemId" value="a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -228,7 +366,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PROJECT" />
+              <option name="myItemId" value="a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -246,11 +384,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PROJECT" />
+              <option name="myItemId" value="a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Public" />
+<<<<<<< HEAD
+=======
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SANHINDA_SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SANHINDA_SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Includes" />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,36 +441,43 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../12000302php" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Website" />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\wamp\www\PROJECT\Public\PHP" />
       <recent name="C:\wamp\www\PROJECT\Public\HTML" />
       <recent name="C:\wamp\www\Group_Project\Public\PHP" />
       <recent name="C:\wamp\www\Group_Project\Public\HTML" />
       <recent name="C:\wamp\www\SANHINDA_SHOP\Public\PHP" />
+=======
+      <recent name="C:\wamp\www\a\Public\PHP" />
+      <recent name="C:\wamp\www\Group_Project\Public\PHP" />
+      <recent name="C:\wamp\www\Group_Project\Public\HTML" />
+      <recent name="C:\wamp\www\SANHINDA_SHOP\Public\PHP" />
+      <recent name="C:\wamp\www\SANHINDA_SHOP\Public\JS" />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\PROJECT\Public\HTML" />
       <recent name="C:\wamp\www\Group_Project\Public\HTML" />
       <recent name="C:\wamp\www\Group_Project\Public\PHP" />
       <recent name="C:\wamp\www\SANHINDA_SHOP\Public\CSS" />
       <recent name="C:\wamp\www\SANHINDA_SHOP\Public\HTML" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.stock_keeper.html">
+  <component name="RunManager" selected="PHP Script.signUp.php">
     <configuration default="false" name="signUp.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Public/PHP/signUp.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="stock_keeper.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/SANHINDA_SHOP/Public/HTML/stock_keeper.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -309,14 +493,12 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.signUp.php" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.stock_keeper.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.stock_keeper.html" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.signUp.php" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.signUp.php" />
       </list>
     </recent_temporary>
   </component>
@@ -339,8 +521,13 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18081991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18008785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -348,7 +535,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -370,10 +560,38 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Public/PHP/signIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/signIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="52" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/CSS/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3573" max-vertical-offset="4182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/CSS/lo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3284" max-vertical-offset="3893" />
+      </provider>
+    </entry>
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
     <entry file="file://$PROJECT_DIR$/Public/JS/jquery-1.8.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="17" selection-start="70" selection-end="70" vertical-scroll-proportion="0.028428094" vertical-offset="0" max-vertical-offset="598" />
@@ -399,11 +617,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/CSS/lo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="969" selection-end="969" vertical-scroll-proportion="0.54745764" vertical-offset="306" max-vertical-offset="3978" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/CSS/css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4182" />
@@ -424,14 +637,49 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="79560" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/CSS/styles.css">
+    <entry file="file://$PROJECT_DIR$/Public/HTML/chairman.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751" />
+        <state line="55" column="113" selection-start="2644" selection-end="2644" vertical-scroll-proportion="-7.0384617" vertical-offset="752" max-vertical-offset="2040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="729" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/Methods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/mFlow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/testsupun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="48" selection-start="3440" selection-end="3440" vertical-scroll-proportion="0.0" vertical-offset="1468" max-vertical-offset="2040" />
+        <state line="26" column="94" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/CSS/lo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="50" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="4012" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/manager main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="774" selection-end="2940" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2074" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/ChairmanClass.php">
@@ -439,16 +687,17 @@
         <state line="14" column="30" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/CashierClass.php">
+    <entry file="file://$PROJECT_DIR$/Public/PHP/stock_keeper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="2" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="731" />
+        <state line="52" column="132" selection-start="2337" selection-end="2449" vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="5015" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP/Search.php">
+    <entry file="file://$PROJECT_DIR$/Public/HTML/cashier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="26" selection-start="4337" selection-end="4337" vertical-scroll-proportion="0.0" vertical-offset="1419" max-vertical-offset="3026" />
+        <state line="63" column="7" selection-start="2571" selection-end="2571" vertical-scroll-proportion="0.0" vertical-offset="767" max-vertical-offset="2941" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Public/HTML/chairman.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="113" selection-start="2644" selection-end="2644" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="2040" />
@@ -547,25 +796,142 @@
     <entry file="file://$PROJECT_DIR$/Public/PHP/skFlow.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="544" />
+=======
+    <entry file="file://$PROJECT_DIR$/Public/PHP/viewStaff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="15" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1343" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP/viewSupplier.php">
+    <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/ManagerClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="1491" selection-end="1554" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1700" />
+        <state line="89" column="0" selection-start="2974" selection-end="2974" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="1751" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/HTML/manager.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="27" selection-start="11917" selection-end="12090" vertical-scroll-proportion="0.0" vertical-offset="3952" max-vertical-offset="4913" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/purchaseDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="37" selection-start="2718" selection-end="2718" vertical-scroll-proportion="-0.0" vertical-offset="1156" max-vertical-offset="2346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="66" selection-start="10368" selection-end="10373" vertical-scroll-proportion="1.2735192" vertical-offset="3026" max-vertical-offset="4437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/JS/book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="306" selection-end="920" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/addSale - Cashier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="2414" selection-end="2786" vertical-scroll-proportion="-10.269231" vertical-offset="1076" max-vertical-offset="2465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/addSale - Stock Keeper .html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="27" selection-start="5781" selection-end="5788" vertical-scroll-proportion="-11.269231" vertical-offset="2784" max-vertical-offset="3553" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="14" selection-start="786" selection-end="786" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/addPurchase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="33" selection-start="4961" selection-end="4961" vertical-scroll-proportion="0.0" vertical-offset="2789" max-vertical-offset="3417" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/HTML/stock_keeper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="256" column="32" selection-start="14419" selection-end="14419" vertical-scroll-proportion="0.0" vertical-offset="3432" max-vertical-offset="5321" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/skFlow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="1" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/editStaff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="355" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="2057" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/editbook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="3665" selection-end="3665" vertical-scroll-proportion="0.0" vertical-offset="1286" max-vertical-offset="2278" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/updatebook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="0" selection-start="5339" selection-end="5339" vertical-scroll-proportion="0.0" vertical-offset="2958" max-vertical-offset="4233">
+          <folding>
+            <marker date="1413324602488" expanded="true" signature="937:955" placeholder="INSERT INTO ..." />
+            <marker date="1413324602488" expanded="true" signature="1965:1987" placeholder="INSERT INTO ..." />
+            <marker date="1413324602488" expanded="true" signature="2135:2167" placeholder="INSERT INTO ..." />
+            <marker date="1413324602488" expanded="true" signature="2298:2328" placeholder="INSERT INTO ..." />
+            <marker date="1413324602488" expanded="true" signature="3000:3042" placeholder="Select * Fro..supplier..." />
+            <marker date="1413324602488" expanded="true" signature="3063:3099" placeholder="Select TelNo..supplier_telephone..." />
+            <marker date="1413324602488" expanded="true" signature="3120:3150" placeholder="Select * Fro..supplier_address..." />
+            <marker date="1413324602488" expanded="true" signature="3487:3546" placeholder="UPDATE suppl..." />
+            <marker date="1413324602488" expanded="true" signature="5716:5897" placeholder="UPDATE book ..." />
+            <marker date="1413324602488" expanded="true" signature="6534:6689" placeholder="UPDATE book ..." />
+            <marker date="1413324602488" expanded="true" signature="7038:7088" placeholder="UPDATE book ..." />
+          </folding>
+        </state>
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/Search.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="37" column="4" selection-start="1491" selection-end="1554" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1700" />
+=======
+        <state line="0" column="0" selection-start="0" selection-end="7076" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2975">
+          <folding />
+        </state>
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/CashierClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="181" column="12" selection-start="6922" selection-end="6922" vertical-scroll-proportion="0.0" vertical-offset="2694" max-vertical-offset="4743" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/HTML/addSale - Stock Keeper .html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1317" max-vertical-offset="3655" />
+=======
+        <state line="32" column="53" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="731">
+          <folding>
+            <marker date="1413322827531" expanded="true" signature="500:599" placeholder="Select * Fro..book..." />
+            <marker date="1413322827531" expanded="true" signature="741:779" placeholder="Select * Fro..book..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/CSS/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="1" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="2550">
+          <folding />
+        </state>
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/JS/Kushan.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="59" column="27" selection-start="582" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="1122" />
       </provider>
     </entry>
@@ -582,10 +948,16 @@
     <entry file="file://$PROJECT_DIR$/Public/PHP/updatebook.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="2" selection-start="308" selection-end="308" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323" />
+=======
+        <state line="50" column="33" selection-start="1067" selection-end="1074" vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="1156">
+          <folding />
+        </state>
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/PHP_CLASSES/StockKeeperClass.php">
+    <entry file="file://$PROJECT_DIR$/Public/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="228" column="30" selection-start="6988" selection-end="6988" vertical-scroll-proportion="-12.038462" vertical-offset="3478" max-vertical-offset="4131" />
       </provider>
     </entry>
@@ -620,11 +992,37 @@
           <folding>
             <marker date="1413275280681" expanded="true" signature="284:320" placeholder="SELECT * FRO..book..." />
           </folding>
+=======
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/bookDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/PHP/signIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="765">
+          <folding />
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/PHP/globaltest.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="9" column="50" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
@@ -637,6 +1035,15 @@
         </state>
       </provider>
     </entry>
+=======
+        <state line="61" column="52" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.22887324" vertical-offset="822" max-vertical-offset="1411">
+          <folding>
+            <marker date="1413253544707" expanded="true" signature="1039:1121" placeholder="SELECT Posit..staff..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
   </component>
 </project>
 

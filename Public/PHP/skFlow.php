@@ -16,6 +16,14 @@ if (isset($_GET["username_d"])){
 
 }
 
+<<<<<<< HEAD
+=======
+if (isset($_GET["username_d"])){
+    $SANHINDAStockKeeper->delSupplier();
+
+}
+
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
 if (isset($_GET["ISBN"])){
     $SANHINDAStockKeeper->delBook();
 

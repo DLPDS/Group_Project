@@ -103,7 +103,12 @@
 				</select>
 				</div>
 			</div><!--end branch-->
-			
+            <div class="form-group">
+                <label class="col-lg-4 control-label">ISBN</label>
+                <div class="col-lg-4">
+                    <input class="form-control" placeholder="ISBN" type="number" autofocus required onkeyup="if (event.keyCode == 13) showHint(this.value);" id="ISBN">
+                </div>
+            </div><!-- end of ISBN -->
 			
 		</form><!--end form-->
 		
@@ -158,159 +163,19 @@
 	
 	<div class="row" id ="orderTable">
 		<form>
-			<table class="table table-hover">
-				<tr class="active">
-					<th width="10%" style="text-align:center">ISBN</th>
-					<th width="40%" style="text-align:center">Title</th>
-					<th width="10%" style="text-align:center">Price</th>
-					<th width="10%"style="text-align:center">Quantity</th>
-					<th width="10%"style="text-align:center">Discount</th>
-					<th width="10%"style="text-align:center">Payables</th>
-				</tr>
-				
-				<tr>
-					<td>
-						<input class="form-control" placeholder="Book ISBN" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Book Title" type="text">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Qty" type="number" min=0>
-					</td>
-					<td>
-						<input class="form-control" placeholder="%" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					<td>
-						<button type="button">Edit</button>
-						<button type="button">Delete</button>
-					</td>
-					
-				</tr>
-				
-				<tr>
-					<td>
-						<input class="form-control" placeholder="Book ISBN" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Book Title" type="text">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Qty" type="number" min=0>
-					</td>
-					<td>
-						<input class="form-control" placeholder="%" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					
-					<td>
-						<button type="button">Edit</button>
-						<button type="button">Delete</button>
-					</td>
-
-				</tr>
-				
-				<tr>
-					<td>
-						<input class="form-control" placeholder="Book ISBN" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Book Title" type="text">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Qty" type="number" min=0>
-					</td>
-					<td>
-						<input class="form-control" placeholder="%" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					
-					<td>
-						<button type="button">Edit</button>
-						<button type="button">Delete</button>
-					</td>
-				</tr>
-				
-				<tr>
-					<td>
-						<input class="form-control" placeholder="Book ISBN" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Book Title" type="text">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Qty" type="number" min=0>
-					</td>
-					<td>
-						<input class="form-control" placeholder="%" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					
-					<td>
-						<button type="button">Edit</button>
-						<button type="button">Delete</button>
-					</td>
-				</tr>
-				
-				<tr>
-					<td>
-						<input class="form-control" placeholder="Book ISBN" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Book Title" type="text">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Qty" type="number" min=0>
-					</td>
-					<td>
-						<input class="form-control" placeholder="%" type="number">
-					</td>
-					<td>
-						<input class="form-control" placeholder="Rs" type="number">
-					</td>
-					
-					<td>
-						<button type="button">Edit</button>
-						<button type="button">Delete</button>
-					</td>
-				</tr>
+			<table class="table table-hover" id="table">
+                <tr class="active">
+                    <th width="15%" style="text-align:center">ISBN</th>
+                    <th width="40%" style="text-align:center">Title</th>
+                    <th width="10%" style="text-align:center">Price</th>
+                    <th width="5%"style="text-align:center">Quantity</th>
+                    <th width="5%"style="text-align:center">Discount</th>
+                    <th width="5%"></th>
+                </tr>
+                <tbody id="txtHint"></tbody>
 			</table><!--end table-->
 		</form><!--end form-->
 	</div><!--end row-->
-	
-	<div class="dropdown">
-		<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">View By <span class="caret"></span></button>
-		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-			 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">All</a></li>
-			 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Unsettled</a></li>
-			 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Settled</a></li>			  
-		</ul>
-		</div><!--end dropdown-->
-	
 	</div><!--end container-->
 		
 	<!-- First try for the online version of jQuery-->

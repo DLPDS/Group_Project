@@ -36,7 +36,7 @@ $SANHINDAManager= new managerClass();
             <div class= "panel-heading">
                 <h3 class="panel-title">Supliers</h3>
             </div>
-            <img src="../../Images/supplier.jpg" alt="HTML5">
+            <img src="../../Images/supplier1.jpg" alt="HTML5">
             <div class="col-sm-6">
                 <a class="btn btn-default btn-block">View Details</a>
                 <a class="btn btn-default btn-block">Add Supplier</a>

@@ -77,7 +77,16 @@
 					<input class="form-control" placeholder="Rs" type="number">
 				</div>
 			</div>
+<<<<<<< HEAD
 			
+=======
+            <div class="form-group">
+                <label class="col-lg-4 control-label">ISBN</label>
+                <div class="col-lg-4">
+                    <input class="form-control" placeholder="ISBN" type="number" autofocus required onkeyup="if (event.keyCode == 13) showHint(this.value);" id="ISBN">
+                </div>
+            </div><!-- end of ISBN -->
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
 			
 			<div style="text-align:center">
 			<div class="btn-group">
@@ -101,6 +110,7 @@
 	
 	<div class="row" id ="saleTable">
 		<form>
+<<<<<<< HEAD
 			<table class="table table-hover">
 				<tr class="active">
 					<th width="10%" style="text-align:center">ISBN</th>
@@ -241,6 +251,18 @@
 						<button type="button">Delete</button>
 					</td>
 				</tr>
+=======
+			<table class="table table-hover" id="table">
+                <tr class="active">
+                    <th width="10%" style="text-align:center">ISBN</th>
+                    <th width="40%" style="text-align:center">Title</th>
+                    <th width="10%" style="text-align:center">Price</th>
+                    <th width="5%"style="text-align:center">Quantity</th>
+                    <th width="5%"style="text-align:center">Discount</th>
+                    <th width="10%"></th>
+                </tr>
+				<tbody id="txtHint"></tbody>
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
 			</table><!--end table-->
 		</form><!--end form-->
 	</div><!--end row-->

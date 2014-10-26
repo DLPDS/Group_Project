@@ -59,7 +59,7 @@ class Staff {
             }
 
             else if($position==='Manager'){
-                Methods::redirectTo("../HTML/manager main.html");
+                Methods::redirectTo("../HTML/manager.html");
             }
 
             else if($position==='Stock Keeper'){

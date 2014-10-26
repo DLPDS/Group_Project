@@ -30,7 +30,7 @@ class CashierClass extends Staff {
 
     function ShowAll(){
 
-        $query="Select * From book ";
+        $query="Select * From book Where Status='Good'";
         $result=Methods::queryExecute($query);
         return $result;
     }

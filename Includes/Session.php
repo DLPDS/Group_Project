@@ -15,7 +15,7 @@ class Session {
 
     function messageDisplay(){
         if(isset($_SESSION['message'])){
-            $output="<div>";
+            $output="<div id=alertAddSupplier>";
             $output.=htmlentities($_SESSION['message']);
             $output.="</div>";
 

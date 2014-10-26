@@ -16,22 +16,11 @@ while($row = mysqli_fetch_array($result)) {
     echo "<tr >";
     echo "<td >" ."<input class=form-control type=number placeholder=".$row['ISBN']  ."></td>";
     echo "<td >" ."<input class=form-control type=number placeholder=".$row['Name'] ."></td>";
-<<<<<<< HEAD
-    echo "<td  >" ."<input class=form-control type=number placeholder=".$row['Author'] ."></td>";
-    echo "<td >" ."<input class=form-control type=number placeholder=".$row['Genre'] ."></td>";
-    echo "<td > "."<input class=form-control type=number placeholder=". $row['Price'] ."></td>";
-	echo "<td>" ."<input class=form-control type=number>". "</td>";
-	echo "<td>
-						<button type=button>Edit</button>
-						<button type=button>Delete</button>
-=======
     echo "<td  >" ."<input class=form-control type=number placeholder=". $row['Price'] ."></td>";
     echo "<td >" ."<input class=form-control type=number placeholder=1></td>";
     echo "<td > "."<input class=form-control type=number placeholder=0%></td>";
-	echo "<td>
-						<button type=button>Edit</button>
+    echo "<td>
 						<button type=button onclick=deleteRow(this)>Delete</button>
->>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
 					</td>";
     echo "</tr>";
 

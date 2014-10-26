@@ -54,8 +54,17 @@ if (str.length==0)
 	xmlhttp.send();
 }
 
+<<<<<<< HEAD
 function myDeleteFunction(num) {
     var row = num.parentNode.parentNode;
 	var table = row.parentNode;
     table.removeChild(row);
+=======
+
+function deleteRow(num)
+{
+    var row = num.parentNode.parentNode;
+    document.getElementById("table").deleteRow(row.rowIndex);
+    console.log(row);
+>>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
 }
