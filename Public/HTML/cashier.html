@@ -24,67 +24,88 @@
 
 </head>
 
+<body>
+
+<div class = "container" id="main">
+
+<div class="navbar navbar-fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="../../Images/logo.png" alt="companyLogo"></a>
+        <div class="nav-collapse collapse navbar-responsive-collapse">
+            <ul class = "nav navbar-nav pull-left">
+                <form class="navbar-form center" action="../PHP/Search.php">
+                    <input type="text" class="form-control" placeholder="Search books here" id="searchInput">
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                </form><!--end form-->
+            </ul><!--end ul-->
+
+            <ul class = "nav navbar-nav pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> Cashier<strong class="caret"></strong></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="glyphicon glyphicon-cog"> Settings</span></a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-briefcase"> Update Profile</span></a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-off"> Sign-Out</span></a></li>
+                    </ul>
+
+                </li>
+            </ul>
+        </div><!-- end nav-collapse-->
+    </div><!--end container-->
+</div><!--end navbar-->
+
+<hr>
+<hr>
+
+<div class="row">
+
+    <div class="col-6 text-center" id="billCol">
+        <div class="panel panel-default">
+            <div class="panel-heading"><strong>Billing</strong></div>
+            <div class="panel-body">
+                <div class="row">
+                    <img src="../../Images/supplier.jpg" alt="HTML5" class="img-thumbnail">
+                </div><!--end row-->
+                <hr>
+                <div class="row">
+                    <a href="addSale - Cashier.html" role="button" class="btn btn-default" id="addButton">Add Sale</a>
+
+                    <a class="btn btn-default" href="../PHP/saleDetails.php" role="button">View Sales</a>
+                </div><!--end row-->
+            </div><!--end panel body-->
+        </div><!--end panel-->
+    </div><!--end col-->
+
+    <div class="col-6 text-center" id="returnCol">
+        <div class="panel panel-default">
+            <div class="panel-heading"><strong>Returned Books</strong></div>
+            <div class="panel-body">
+                <div class="row">
+                    <img src="../../Images/bookStock.jpg" alt="HTML5" class="img-thumbnail">
+                </div><!--end row-->
+                <hr>
+                <div class="row">
+                    <a href="returnedBooks.html" role="button" class="btn btn-default">Accept Book</a>                   
+                </div><!--end row-->
+            </div><!--end panel-->
+        </div><!--end panel-->
+    </div><!--end col-->
+
+</div><!--end row-->
 
 
-<div class="container" id="main">
-    <div class="navbar navbar-fixed-top">
-        <div class="container">
-            <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class = "navbar-brand" href="#"><img src = "../../Images/logo.png" alt="My Logo"></a>
-            <div class = "nav-collapse collapse navbar-responsive-collapse">
-                <ul class = "nav navbar-nav">
-                    <li class= "active"><a href = "#">Home</a></li>
-					<li><a href = "#">Billing Section</a></li>
-					<li><a href = "../PHP/Search.php">Search Section</a></li>
-					<li><a href = "#">Return Section</a></li>
-					<li><a href = "#">Message Section</a></li>
-                </ul>
-                  <ul class = "nav navbar-nav pull-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> CASHIER<strong class="caret"></strong> </span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#"><span class="glyphicon glyphicon-cog"> Settings</span></a></li>
-                            <li class="divider"></li>
-                            <li><a href="../../index.html"><span class="glyphicon glyphicon-off"> Sign-Out</span></a></li><!--methenta home eka link karahan-->
-                        </ul>
 
-                    </li>
-                </ul>
-            </div><!--end nav-collapse-->
-        </div><!--end container-->
+</div>
 
-    </div><!--end navbar-->
-
-</div> <!--end container-->
-
-<div class = "carousel slide" id="Company">
-
-    <ol class="carousel-indicators">
-        <li class ="active" data-slide-to="0" data-target="#Company"></li>
-        <li class ="active" data-slide-to="1" data-target="#Company"></li>
-        <li class ="active" data-slide-to="2" data-target="#Company"></li>
-
-
-    </ol>
-    <div class = "carousel-inner">
-        <div class = "item active" id = "slide1"></div>
-        <div class = "item" id = "slide2"></div>
-        <div class = "item" id = "slide3"></div>
-
-    </div><!--end carousel inner-->
-
-    <a class="left carousel-control" data-slide="prev" href="#Company"><span class="icon-prev"></span></a>
-    <a class="right carousel-control" data-slide="next" href="#Company"><span class="icon-next"></span></a>
-</div><!--end carousel slide-->
-
-
-
-<!-- All Javascript at the bottom of the page for faster page loading -->
+<footer>
+    <div class="container">
+        <div class = "row">
+            <h6><strong>SANHINDA PUBLICATIONS</strong></h6>
+        </div>
+    </div>
+    </div>
+</footer>
 
 <!-- First try for the online version of jQuery-->
 <script src="http://code.jquery.com/jquery.js"></script>
@@ -99,15 +120,5 @@
 <script src="../JS/script.js"></script>
 
 </body>
-
-<footer>
-    <div class="container">
-        <div class = "row">
-            <div class="col-sm-2">
-                <h4>SANHINDA PUBLICATIONS</h4>
-            </div>
-        </div>
-    </div>
-</footer>
 </html>
 

@@ -16,6 +16,11 @@ if (isset($_GET["username_d"])){
 
 }
 
+if (isset($_GET["ISBN"])){
+    $SANHINDAStockKeeper->delBook();
+
+}
+
 
 ?>
 

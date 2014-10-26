@@ -140,6 +140,22 @@ class StockKeeperClass extends Staff {
         }
     }
 
+    function delBook(){
+        $ID=$_GET["ISBN"];
+        $query1 = "UPDATE book SET Status ='Bad' WHERE ISBN = '{$ID}' ";
+        $result1=Methods::queryExecute($query1);
+        if($result1)
+        {
+            $_SESSION['message']="Book Black_List";
+            Methods::redirectTo('viewbook.php');
+        }
+        else{
+
+            $_SESSION['message']="Book Deletion Fail";
+            Methods::redirectTo('viewbook.php');
+        }
+    }
+
     function uploadPhoto($isbn){
         $allowed_filetypes = array('.jpg','.jpeg','.png','.gif');
         $max_filesize = 10485760;
@@ -174,10 +190,54 @@ class StockKeeperClass extends Staff {
 
 
         }
+    }
 
+    function editBook(){
+        $ISBN=$_GET['ISBN'];
+        $Name=$_POST['Name'];
+        $Author=$_POST['Author'];
+        $Genre=$_POST['Genre'];
+        $Publisher=$_POST['Publisher'];
+        $Price=$_POST['Price'];
+        $Quantity=$_POST['Quantity'];
+        $Supplier_Id=$_POST['Supplier_Id'];
+        // update data in mysql database
+        $sql="UPDATE book SET ISBN='$ISBN',Name='$Name', Author='$Author',Genre='$Genre',Publisher='$Publisher' ,Quantity='$Quantity' , Supplier_Id={$Supplier_Id}  WHERE ISBN='$ISBN'";
+        $result=Methods::queryExecute($sql);
 
+        // if successfully updated.
+        if($result){
+            $_SESSION['message']="Successfully Updated";
+            Methods::redirectTo("viewbook.php");
+        }
 
+        else {
+            echo "ERROR";
+        }
+    }
 
+    function editBookManually(){
+        $ISBN=$_POST['ISBN'];
+        $Name=$_POST['Title'];
+        $Author=$_POST['Author'];
+        $Genre=$_POST['Genre'];
+        $Publisher=$_POST['Publisher'];
+        $Price=$_POST['Price'];
+        $Quantity=$_POST['Qty'];
+        $Supplier_Id=$_POST['SupID'];
+        // update data in mysql database
+        $sql="UPDATE book SET Name='$Name', Author='$Author',Genre='$Genre',Publisher='$Publisher' ,Quantity='$Quantity' , Supplier_Id={$Supplier_Id}  WHERE ISBN='$ISBN'";
+        $result=Methods::queryExecute($sql);
+
+        // if successfully updated.
+        if($result){
+            $_SESSION['message']="Successfully Updated";
+            Methods::redirectTo("viewbook.php");
+        }
+
+        else {
+            echo "ERROR";
+        }
     }
 
 } 
