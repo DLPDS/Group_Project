@@ -1,33 +1,11 @@
-<!DOCTYPE html>
-
-<html>
-<head>
-
-    <!-- Website Title & Description for Search Engine purposes -->
-    <title></title>
-    <meta name="description" content="">
-
-    <!-- Mobile viewport optimized -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <!-- Bootstrap CSS -->
-    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
-    <link href="../CSS/bootstrap-glyphicons.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="../CSS/styles.css" rel="stylesheet">
-
-    <!-- Include Modernizr in the head, before any other Javascript -->
-    <script src="../JS/modernizr-2.6.2.min.js"></script>
-
-    <script src="../JS/Kushan.js"></script>
-
-</head>
+<?php
+require_once("../PHP_CLASSES/Staff.php");
+require_once("../PHP_CLASSES/StockKeeperClass.php");
+include("../../Includes/Header.php");
+$SANHINDAStockKeeper= new StockKeeperClass();
+?>
 
 <body>
-    <script language="javascript">;
-    alert("Save was Unsuccessful");
-    </script>;
 
 <div class = "container" id="main">
 
@@ -49,7 +27,7 @@
                         <li><a href="#"><span class="glyphicon glyphicon-cog"> Settings</span></a></li>
                         <li><a href="#"><span class="glyphicon glyphicon-briefcase"> Update Profile</span></a></li>
                         <li class="divider"></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-off"> Sign-Out</span></a></li><!--methenta home eka link karahan-->
+                        <li><a href="../../index.html"><span class="glyphicon glyphicon-off"> Sign-Out</span></a></li><!--methenta home eka link karahan-->
                     </ul>
 
                 </li>
@@ -60,7 +38,7 @@
 
 <hr>
 <hr>
-
+<?php echo($SANHINDAStockKeeper->session->messageDisplay()); ?>
 <div class="row">
 
     <div class="col-6 text-center" id="supplierCol">
@@ -83,49 +61,51 @@
                                 </div><!--end modal header-->
                                 <div class="modal-body">
                                     <h6>Supplier Details Form</h6>
-                                            <form class="form-horizontal" action="../PHP/skFlow.php" method="post">
+                                    <form class="form-horizontal" action="../PHP/skFlow.php" method="post">
 
-                                                <div class="form-group">
-                                                    <label class="col-lg-2 control-label" for="Name">Name</label>
-                                                    <div class="col-lg-10">
-                                                        <input class="form-control" id="Name" placeholder="Supplier Name" type="text" name="supName" required="">
-                                                    </div>
-                                                </div><!--end name form-->
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="Name">Name</label>
+                                            <div class="col-lg-10">
+                                                <input class="form-control" id="Name" placeholder="Supplier Name" type="text" name="supName" required="">
+                                            </div>
+                                        </div><!--end name form-->
 
-                                                <div class="form-group">
-                                                    <label class="col-lg-2 control-label" for="email">Email</label>
-                                                    <div class="col-lg-10">
-                                                        <input class="form-control" id="email" placeholder="Email" type="email" name="supMail" required="">
-                                                    </div>
-                                                </div><!--end email-->
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="email">Email</label>
+                                            <div class="col-lg-10">
+                                                <input class="form-control" id="email" placeholder="Email" type="email" name="supMail" required="">
+                                            </div>
+                                        </div><!--end email-->
 
-                                                <div class="form-group">
-                                                    <label class="col-lg-2 control-label" for="tel">Telephone</label>
-                                                    <div class="col-lg-4">
-                                                        <input class="form-control" id="tel" placeholder="Telephone" type="text" name="supTel" required="">
-                                                    </div>
-                                                </div><!--end tel-->
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="tel">Telephone</label>
+                                            <div class="col-lg-4">
+                                                <input class="form-control" id="tel" placeholder="Telephone" type="text" name="supTel" required="">
+                                            </div>
+                                        </div><!--end tel-->
 
-                                                <div class="form-group">
-                                                    <label class="col-lg-2 control-label" for="address">Address</label>
-                                                    <div class="col-lg-10">
-                                                        <input class="form-control" id="address" placeholder="Address" type="text" name="supAdd" required="">
-                                                    </div>
-                                                </div><!--end address-->
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" >Address</label>
+                                            <div class="col-lg-10">
+                                                <input class="form-control"  placeholder="Post No" type="text" name="pCode" required=""><br/>
+                                                <input class="form-control"  placeholder="Name" type="text" name="name" required=""><br/>
+                                                <input class="form-control"  placeholder="City" type="text" name="supCity" required="">
+                                            </div>
+                                        </div><!--end address-->
 
-                                                <div class="modal-footer">
-                                                    <button type="submit" class="btn btn-success" name="addSupplier">Save</button>
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-success" name="addSupplier">Save</button>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
 
-                                            </form><!--end form-->
+                                    </form><!--end form-->
                                 </div><!--end modal body-->
 
                             </div><!--end modal content-->
                         </div><!--end modal dialog-->
                     </div><!--end modal-->
 
-                    <a class="btn btn-default" href="../PHP/supplier.php" role="button">View Suppliers</a>
+                    <a class="btn btn-default" href="../PHP/viewSupplier.php" role="button">View Suppliers</a>
                 </div><!--end row-->
             </div><!--end panel body-->
         </div><!--end panel-->
@@ -218,7 +198,7 @@
                                         </div>
 
                                         <div class="btn btn-default btn-file">
-                                            Upload Photo<input type="file" name="bookCover">
+                                            Upload Photo<input type="file" name="bookCover" value="cover">
                                         </div>
 
                                         <div class="modal-footer">
@@ -230,7 +210,7 @@
 
                                 </div><!--end modal body-->
 
-<!--end modal footer-->
+                                <!--end modal footer-->
 
 
                             </div><!--end content-->

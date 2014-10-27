@@ -21,17 +21,28 @@
 		<script src="../JS/modernizr-2.6.2.min.js"></script>
 
 		<script src="../JS/Kushan.js"></script>
-		
 	</head>
 	<body>
-	
-	<div class="container" id="main">
-	
-	<div class="navbar navbar-fixed-top">
-		<div class="container">
-			<a class="navbar-brand" href="/"><img src="../../Images/logo.png" alt="companyLogo"></a>
-			<div class="nav-collapse collapse navbar-responsive-collapse">
+<div class="container" id="main">
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+            <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class = "navbar-brand" href="#"><img src = "../../Images/logo.png" alt="My Logo"></a>
+            <div class = "nav-collapse collapse navbar-responsive-collapse">
+                <ul class = "nav navbar-nav">
+                    <li><a href = "#">Home</a></li>
+					<li><a href = "#">Purchasing Section</a></li>
+					<li class= "active"><a href = "#">Selling Section</a></li>
+					<li><a href = "#">Search Section</a></li>
+					<li><a href = "#">Message Section</a></li>
+					<li><a href = "#">Enter Book Details</a></li>
 
+                </ul>
 				<ul class = "nav navbar-nav pull-right">
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> Stock Keeper<strong class="caret"></strong></span></a>
@@ -47,39 +58,33 @@
 			</div><!-- end nav-collapse-->
 		</div><!--end container-->
 	</div><!--end navbar-->
-	
+	</div><!--end container-->
 	<hr>
 	<hr>
 	
 	<div class="row">
 	
-		<div class="col-6" id="orderDetails">
+		<div class="col-6" id="saleDetails">
 		
 		<form class="form-horizontal">
 		
 			<div class="form-group">
-				<label class="col-lg-4 control-label">Purchase No</label>
+				<label class="col-lg-4 control-label">Sale No</label>
 				<div class="col-lg-4">
-					<input class="form-control" placeholder="Purchase No" type="number" required="">
+					<input class="form-control" placeholder="Sale No" type="number" required="">
 				</div>
-			</div><!--end Order No-->
+			</div><!--end Sale No-->
 			
 			<div class="form-group">
-				<label class="col-lg-4 control-label">Ordered Date</label>
+				<label class="col-lg-4 control-label">Date</label>
 				<div class="col-lg-4">
 					<input class="form-control" placeholder="" type="date">
 				</div>
 			</div>
 			
+					
 			<div class="form-group">
-				<label class="col-lg-4 control-label">Delivered Date</label>
-				<div class="col-lg-4">
-					<input class="form-control" placeholder="" type="date" required="">
-				</div>
-			</div>
-			
-			<div class="form-group">
-				<label class="col-lg-4 control-label">Supplier</label>
+				<label class="col-lg-4 control-label">Customer</label>
 				<div class="col-6">
 				<select class="form-control">
 				  <option selected>Choose Supplier</option>
@@ -103,12 +108,13 @@
 				</select>
 				</div>
 			</div><!--end branch-->
-            <div class="form-group">
-                <label class="col-lg-4 control-label">ISBN</label>
-                <div class="col-lg-4">
-                    <input class="form-control" placeholder="ISBN" type="number" autofocus required onkeyup="if (event.keyCode == 13) showHint(this.value);" id="ISBN">
-                </div>
-            </div><!-- end of ISBN -->
+			
+			<div class="form-group">
+				<label class="col-lg-4 control-label">ISBN</label>
+				<div class="col-lg-4">
+					<input class="form-control" placeholder="ISBN" type="number" autofocus required onkeyup="if (event.keyCode == 13) showHint(this.value);" id="ISBN">
+				</div>
+			</div><!-- end of ISBN -->
 			
 		</form><!--end form-->
 		
@@ -116,24 +122,24 @@
 	
 	<div class="col-6">
 	
-	<form class="form-horizontal" id="orderDetails2">
+	<form class="form-horizontal" id="saleDetails2">
 		
 			<div class="form-group">
 				<label class="col-lg-4 control-label">Total Amount</label>
 				<div class="col-lg-4">
-					<input class="form-control" placeholder="Rs" type="number">
+					<input class="form-control" placeholder="Rs" type="number" value=0>
 				</div>
 			</div>
 			
 			<div class="form-group">
-				<label class="col-lg-4 control-label">Paid Amount</label>
+				<label class="col-lg-4 control-label">Advanced Amount</label>
 				<div class="col-lg-4">
 					<input class="form-control" placeholder="Rs" type="number">
 				</div>
 			</div>
 			
 			<div class="form-group">
-				<label class="col-lg-4 control-label">Due Amount</label>
+				<label class="col-lg-4 control-label">Receivables</label>
 				<div class="col-lg-4">
 					<input class="form-control" placeholder="Rs" type="number">
 				</div>
@@ -147,7 +153,7 @@
 			</div>
 			
 			<div class="form-group" style="text-align:center">
-				<button type="button" class="btn btn-default">Complete Order</button>
+				<button type="button" class="btn btn-default">Complete Sale</button>
 			</div>
 		
 			
@@ -160,24 +166,26 @@
 	</div><!--end row-->
 	
 	<hr>
-	
-	<div class="row" id ="orderTable">
+	<div div class="container">
+	<div class="row" id ="saleTable">
 		<form>
 			<table class="table table-hover" id="table">
-                <tr class="active">
-                    <th width="15%" style="text-align:center">ISBN</th>
-                    <th width="40%" style="text-align:center">Title</th>
-                    <th width="10%" style="text-align:center">Price</th>
-                    <th width="5%"style="text-align:center">Quantity</th>
+				<tr class="active">
+					<th width="10%" style="text-align:center">ISBN</th>
+					<th width="40%" style="text-align:center">Title</th>
+					<th width="10%" style="text-align:center">Price</th>
+					<th width="5%"style="text-align:center">Quantity</th>
                     <th width="5%"style="text-align:center">Discount</th>
-                    <th width="5%"></th>
-                </tr>
-                <tbody id="txtHint"></tbody>
+					<th width="10%"></th>
+				</tr>
+				
+				<tbody id="txtHint" ></tbody>
 			</table><!--end table-->
 		</form><!--end form-->
 	</div><!--end row-->
-	</div><!--end container-->
-		
+	
+	</div>
+ </div>
 	<!-- First try for the online version of jQuery-->
 	<script src="http://code.jquery.com/jquery.js"></script>
 

@@ -40,7 +40,7 @@ else{
 
 <div class="row">
 
-<div class="col-4" id="catagoryCol">
+<div class="col-3" id="catagoryCol">
     <div class="panel panel-default">
         <div class="panel-heading"><strong>Catagory</strong></div>
         <div class="panel-body">
@@ -68,82 +68,79 @@ else{
     </div><!--end panel-->
 </div><!--end Catagorycol-->
 
-<div class="col-8" id="bookViewCol">
+<div class="col-9" id="bookViewCol">
     <div class="panel panel-default">
         <div class="panel-heading"><strong>Available Books</strong></div>
         <div class="panel-body">
-            <?php
-            if($result){
-            while($row = mysqli_fetch_array($result,MYSQLI_ASSOC))
-            {
-
-            ?>
             <div class="row">
-                <div class="col-4">
-					<h3> ISBN:<?php echo($row['ISBN']); ?></h3>
-                    <h4> Book Name:<?php echo($row['Name']); ?></h4>
-                    <h4> Author:<?php echo($row['Author']); ?></h4>
-                    <h4> Genre:<?php echo($row['Genre']); ?></h4>
-                    <h4> Publisher:<?php echo($row['Publisher']); ?></h4>
-                    <h4> Price:<?php echo($row['Price']); ?></h4>
-				</div>
-				
-				<div class= "col-6">
-					<div class="thumbnail">
-						<img src="../../Covers/<?php echo($row['Image_Loc'])?>">
-					</div>
-				</div>
-                
+                <div class="col-12">
+                    <table  class="table table-hover">
+                        <tr>
+                            <th width="3%" style="text-align:center">ISBN</th>
+                            <th width="35%" style="text-align:center">Title</th>
+                            <th width="30%" style="text-align:center">Author</th>
+                            <th width="10%" style="text-align:center">Genre</th>
+                            <th width="20%" style="text-align:center">Publisher</th>
+                            <th width="2%" style="text-align:center">Price</th>
+                        </tr>
+                        <?php
+                        if($result){
+                        while($row = mysqli_fetch_array($result,MYSQLI_ASSOC))
+                        {
+
+                        ?>
+                        <div class="row">
+                            <div class="col-12">
+                                <tr class="info">
+                                <td align="center"><?php echo($row['ISBN']); ?></td>
+                                <td align="center"><?php echo($row['Name']); ?></td>
+                                <td align="center"><?php echo($row['Author']); ?></td>
+                                <td align="center"><?php echo($row['Genre']); ?></td>
+                                <td align="center"><?php echo($row['Publisher']); ?></td>
+                                <td align="center"><?php echo($row['Price']); ?></td>
+                                <td><img src="../../Covers/<?php echo $row['Image_Loc']; ?>" height="60px" width="80px"></td>
+
+                                <td align="center"><a href="editbook.php?ISBN=<?php echo urlencode($row['ISBN']); ?>">update</a></td>
+                                <td><button><?php echo "<a onClick='return delete_test();' href='skFlow.php?ISBN=".urlencode($row['ISBN'])."'>Delete</a>";?></button></td>
+                                </tr>
+                            </div>
+
+
+
+                        </div>
+                        <hr>
+                    </div>
+
+                       <?php
+                       }
+                       }
+
+                       else{
+                           while($row = mysqli_fetch_array($defaultResult,MYSQLI_ASSOC))
+                           {
+                               ?>
+
+
+                                        <tr class="info">
+                                            <td align="center"><?php echo($row['ISBN']); ?></td>
+                                            <td align="center"><?php echo($row['Name']); ?></td>
+                                            <td align="center"><?php echo($row['Author']); ?></td>
+                                            <td align="center"><?php echo($row['Genre']); ?></td>
+                                            <td align="center"><?php echo($row['Publisher']); ?></td>
+                                            <td align="center"><?php echo($row['Price']); ?></td>
+                                            <td align="center"><button><a href="editbook.php?ISBN=<?php echo urlencode($row['ISBN']); ?>">Update</a></button></td>
+                                            <td><button><?php echo "<a onClick='return delete_test();' href='skFlow.php?ISBN=".urlencode($row['ISBN'])."'>Delete</a>";?></button></td>
+
+                                        </tr>
+
+
+                            <?php
+                           }
+                       }
+                       ?>
             </div>
-			<hr>
-        </div>
+            </div>
 
-           <?php
-           }
-           }
-
-           else{
-               while($row = mysqli_fetch_array($defaultResult,MYSQLI_ASSOC))
-               {
-                   ?>
-                <div class="row">
-					<div class="col-6">
-						<h3> ISBN:<?php echo($row['ISBN']); ?></h3>
-						<h4> Book Name:<?php echo($row['Name']); ?></h4>
-						<h4> Author:<?php echo($row['Author']); ?></h4>
-						<h4> Genre:<?php echo($row['Genre']); ?></h4>
-						<h4> Publisher:<?php echo($row['Publisher']); ?></h4>
-						<h4> Price:<?php echo($row['Price']); ?></h4>
-					</div>
-				
-					<div class= "col-6">
-						<div class="thumbnail">
-							<img src="../../Covers/<?php echo($row['Image_Loc'])?>">
-						</div>
-					</div>
-					
-				</div>
-				
-				<hr>
-
-               <?php
-               }
-           }
-           ?>
-
-            <div class ="row">
-                <div class="text-center">
-                    <ul class="pagination centered">
-                        <li><a href="#">&laquo;</a></li>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">&raquo;</a></li>
-                    </ul>
-                </div>
-            </div><!--pagination row end-->
 
         </div>
     </div>

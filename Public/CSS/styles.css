@@ -26,6 +26,40 @@
 	padding:60px 400px;
 }
 
+#mainPage{
+
+    background-image:url('../../Images/mainback.jpg');
+}
+
+#signInButton{
+
+    position:absolute;
+    width:100px;
+    height:100px;
+    z-index:15;
+    top:80%;
+    left:52%;
+    margin:-100px 0 0 -100px;
+
+
+}
+
+#signBtn{
+
+    background-color: #AD855C;
+    border-color: 	#000000;
+    color:#000000;
+    font-size: 20px;
+}
+
+#alertAddSupplier{
+
+    font-size: 20px;
+    background-color: greenyellow;
+
+}
+
+
 
 
 /* --------------------------------------
@@ -95,4 +129,17 @@ footer{
 	color: #eee;
 	font-size:16px;
 	padding:20px;
+}
+
+
+/* --------------------------------------
+   Changing Effect
+   -------------------------------------- */
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
 }

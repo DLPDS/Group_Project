@@ -34,11 +34,9 @@ $result=Methods::queryExecute($query);
 <body>
 <div class="container">
             <hr>
-
+            <h1>Employee Details</h1>
+            <hr>
             <table  class="table table-hover">
-                <tr>
-                    <td colspan="6" align="center"><strong>List data from mysql </strong> </td>
-                </tr>
 
                 <tr>
                     <th align="center"><strong>First Name</strong></th>

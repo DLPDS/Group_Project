@@ -1,7 +1,7 @@
 <?php
-include("../../Includes/Header.php");
 require_once("../PHP_CLASSES/Staff.php");
 require_once("../PHP_CLASSES/StockKeeperClass.php");
+include("../../Includes/Header.php");
 $SANHINDAStockKeeper= new StockKeeperClass();
 $result=$SANHINDAStockKeeper->viewSuppliers();
 
@@ -35,6 +35,8 @@ $result=$SANHINDAStockKeeper->viewSuppliers();
     <hr>
     <hr>
 
+    <?php echo($SANHINDAStockKeeper->session->messageDisplay()); ?>
+
     <h4 align="center"><strong>Supplier Details Table</strong></h4>
     <hr>
     <table  class="table table-bordered">
@@ -62,7 +64,7 @@ $result=$SANHINDAStockKeeper->viewSuppliers();
             <td width="10%" align="center"><?php echo($row2['TelNo']); ?></td>
             <td width="25%" align="center"><?php echo($row3['Post_Code'].", ".$row3['S_Name'].", ".$row3['City']); ?></td>
             <td><button><?php echo "<a onClick='return delete_test();' href='skFlow.php?username_d=".urlencode($row1['Supplier_Id'])."'>Delete</a>";?></button></td>
-            <td><button><?php echo "<a href='../edit.php?username_d=".urlencode($row1['Supplier_Id'])."'>Edit</a>";?></button></td>
+            <td><a href="editStaff.php?Username=<?php echo urlencode($row1['Supplier_Id']); ?>"><button>Edit</button></a></td>
         </tr>
 
         <?php

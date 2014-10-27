@@ -31,6 +31,7 @@ $SANHINDAStaff->signInForm();
             </div>
             <div>
                 <input type="submit" value="submit" name="submit" />
+                <?php echo($SANHINDAStaff->session->messageDisplay()); ?>
             </div>
         </form><!-- form -->
     </section><!-- content -->

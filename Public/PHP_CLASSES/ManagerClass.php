@@ -47,8 +47,8 @@ class ManagerClass extends Staff{
 
         $result=Methods::queryExecute($query);
         if(!$result){
-            //Methods::redirectTo("manager main 1.php");
-            Methods::redirectTo("manager main 2.php");
+            $_SESSION['message']="Insert staff Query execution failed ";
+            Methods::redirectTo("manager.php");
         }
 
     }
@@ -58,29 +58,31 @@ class ManagerClass extends Staff{
         $max_filesize = 10485760;
         $upload_path = '../../Uploads/';
 
-        $filename = $_FILES['userfile']['name'];
+        $filename = $_FILES['staffPhoto']['name'];
         $ext = substr($filename, strpos($filename,'.'), strlen($filename)-1);
 
         if(!in_array($ext,$allowed_filetypes))
             die('The file you attempted to upload is not allowed.');
 
-        if(filesize($_FILES['userfile']['tmp_name']) > $max_filesize)
+        if(filesize($_FILES['staffPhoto']['tmp_name']) > $max_filesize)
             die('The file you attempted to upload is too large.');
 
         if(!is_writable($upload_path))
             die('You cannot upload to the specified directory, please CHMOD it to 777.');
 
-        if(move_uploaded_file($_FILES['userfile']['tmp_name'],$upload_path . $filename)) {
+        if(move_uploaded_file($_FILES['staffPhoto']['tmp_name'],$upload_path . $filename)) {
             $query ="UPDATE staff ";
             $query.="SET Image_Path='{$filename}'";
             $query.=" WHERE Username='{$username}'";
             $result=Methods::queryExecute($query);
 
             if($result){
-                Methods::redirectTo("manager main 1.php");
+                $_SESSION['message']="Staff member added ";
+                Methods::redirectTo("manager.php");
             }
             else{
-                Methods::redirectTo("manager main 2.php");
+                $_SESSION['message']="Couldn't add member ";
+                Methods::redirectTo("manager.php");
             }
 
 

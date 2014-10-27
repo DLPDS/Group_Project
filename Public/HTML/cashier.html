@@ -39,10 +39,11 @@
             <div class = "nav-collapse collapse navbar-responsive-collapse">
                 <ul class = "nav navbar-nav">
                     <li class= "active"><a href = "#">Home</a></li>
-					<li><a href = "#">Billing Section</a></li>
-					<li><a href = "../PHP/Search.php">Search Section</a></li>
-					<li><a href = "#">Return Section</a></li>
-					<li><a href = "#">Message Section</a></li>
+					<li><a href = "addSale%20-%20Cashier.html">Bills</a></li>
+					<li><a href = "../PHP/Search.php">Books</a></li>
+					<li><a href = "returnedBooks.html">Returned Books</a></li>
+                    <li><a href = "#">Sales</a></li>
+
                 </ul>
                   <ul class = "nav navbar-nav pull-right">
                     <li class="dropdown">
@@ -59,28 +60,89 @@
         </div><!--end container-->
 
     </div><!--end navbar-->
+    <hr>
+    <hr>
+    <div class="row">
+
+        <div class="col-6 text-center" id="BillCol">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>Bills</strong></div>
+                <div class="panel-body">
+                    <div class="row">
+                        <img src="../../Images/sales.jpg" alt="HTML5" class="img-thumbnail">
+                    </div><!--end row-->
+                    <hr>
+                    <div class="row">
+                        <form action="addSale%20-%20Cashier.html">
+                            <input type="submit" value="Issue Bill" role="button" class="btn btn-default">
+                        </form>
+                    </div><!--end row-->
+                </div><!--end panel body-->
+            </div><!--end panel-->
+        </div><!--end col-->
+
+        <div class="col-6 text-center" id="bookCol">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>Books</strong></div>
+                <div class="panel-body">
+                    <div class="row">
+                        <img src="../../Images/bookStock.jpg" alt="HTML5" class="img-thumbnail">
+                    </div><!--end row-->
+                    <hr>
+                    <div class="row">
+                        <form action="../PHP/Search.php">
+                            <input type="submit" value="Search Books" role="button" class="btn btn-default">
+                        </form>
+                    </div><!--end row-->
+                </div><!--end panel-->
+            </div><!--end panel-->
+        </div><!--end col-->
+
+    </div><!--end row-->
+
+    <div class="row">
+
+        <div class="col-6 text-center" id="returnCol">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>Returned Books</strong></div>
+                <div class="panel-body">
+                    <div class="row">
+                        <img src="../../Images/return.jpg" alt="HTML5" class="img-thumbnail">
+                    </div><!--end row-->
+                    <hr>
+                    <div class="row">
+                        <form action="returnedBooks.html">
+                            <input type="submit" value="Return Book" role="button" class="btn btn-default">
+                        </form>
+                    </div><!--end row-->
+                </div><!--end panel body-->
+            </div><!--end panel-->
+        </div><!--end col-->
+
+        <div class="col-6 text-center" id="saleCol">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>Sales</strong></div>
+                <div class="panel-body">
+                    <div class="row">
+                        <img src="../../Images/sales.jpg" alt="HTML5" class="img-thumbnail">
+                    </div><!--end row-->
+                    <hr>
+                    <div class="row">
+                        <form action="../PHP/Search.php">
+                            <input type="submit" value="Sale Details" role="button" class="btn btn-default">
+                        </form>
+                    </div><!--end row-->
+                </div><!--end panel-->
+            </div><!--end panel-->
+        </div><!--end col-->
+
+    </div><!--end row-->
+
+    </div>
 
 </div> <!--end container-->
 
-<div class = "carousel slide" id="Company">
 
-    <ol class="carousel-indicators">
-        <li class ="active" data-slide-to="0" data-target="#Company"></li>
-        <li class ="active" data-slide-to="1" data-target="#Company"></li>
-        <li class ="active" data-slide-to="2" data-target="#Company"></li>
-
-
-    </ol>
-    <div class = "carousel-inner">
-        <div class = "item active" id = "slide1"></div>
-        <div class = "item" id = "slide2"></div>
-        <div class = "item" id = "slide3"></div>
-
-    </div><!--end carousel inner-->
-
-    <a class="left carousel-control" data-slide="prev" href="#Company"><span class="icon-prev"></span></a>
-    <a class="right carousel-control" data-slide="next" href="#Company"><span class="icon-next"></span></a>
-</div><!--end carousel slide-->
 
 
 
@@ -100,14 +162,6 @@
 
 </body>
 
-<footer>
-    <div class="container">
-        <div class = "row">
-            <div class="col-sm-2">
-                <h4>SANHINDA PUBLICATIONS</h4>
-            </div>
-        </div>
-    </div>
-</footer>
+
 </html>
 
