@@ -97,11 +97,17 @@ class StockKeeperClass extends Staff {
         $result3=Methods::queryExecute($query3);
         if($result1==true && $result2==true && $result3){
 
-            $_SESSION['message']="Added one supplier!";
+            $_SESSION['message']="<div class='alert alert-success' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>SUCCESSFUL ! You have added one Supplier";
             Methods::redirectTo('stock_keeper.php');
         }
         else{
-            $_SESSION['message']="Supplier insertion failed!";
+            $_SESSION['message']="<div class='alert alert-warning' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>Sorry! Supplier insertion has failed";
             Methods::redirectTo('stock_keeper.php');
         }
     }
@@ -130,29 +136,19 @@ class StockKeeperClass extends Staff {
         //$result2=Methods::queryExecute($query2);
         if($result1)
         {
-            $_SESSION['message']="Supplier Black_List";
+            $_SESSION['message']="<div class='alert alert-success' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>Supplier Black_Listed";
             Methods::redirectTo('viewSupplier.php');
         }
         else{
 
-            $_SESSION['message']="Supplier Deletion Fail";
+            $_SESSION['message']="<div class='alert alert-warning' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>Supplier Deletion Fail";
             Methods::redirectTo('viewSupplier.php');
-        }
-    }
-
-    function delBook(){
-        $ID=$_GET["ISBN"];
-        $query1 = "UPDATE book SET Status ='Bad' WHERE ISBN = '{$ID}' ";
-        $result1=Methods::queryExecute($query1);
-        if($result1)
-        {
-            $_SESSION['message']="Book Black_List";
-            Methods::redirectTo('viewbook.php');
-        }
-        else{
-
-            $_SESSION['message']="Book Deletion Fail";
-            Methods::redirectTo('viewbook.php');
         }
     }
 
@@ -180,22 +176,24 @@ class StockKeeperClass extends Staff {
             $result=Methods::queryExecute($query);
 
             if($result){
-                $_SESSION['message']="One book added";
+                $_SESSION['message']="<div class='alert alert-success' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>One book added";
                 Methods::redirectTo('stock_keeper.php');
             }
             else{
-                $_SESSION['message']="Image uploading process has a problem";
+                $_SESSION['message']="<div class='alert alert-warning' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>Image uploading process has a problem";
                 Methods::redirectTo('stock_keeper.php');
             }
 
 
         }
-    }
 
-<<<<<<< HEAD
-=======
     }
->>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
     function editBook(){
         $ISBN=$_GET['ISBN'];
         $Name=$_POST['Name'];
@@ -206,19 +204,15 @@ class StockKeeperClass extends Staff {
         $Quantity=$_POST['Quantity'];
         $Supplier_Id=$_POST['Supplier_Id'];
         // update data in mysql database
-<<<<<<< HEAD
-        $sql="UPDATE book SET ISBN='$ISBN',Name='$Name', Author='$Author',Genre='$Genre',Publisher='$Publisher' ,Quantity='$Quantity' , Supplier_Id={$Supplier_Id}  WHERE ISBN='$ISBN'";
-=======
         $sql="UPDATE book SET ISBN='$ISBN',Name='$Name', Author='$Author',Genre='$Genre',Publisher='$Publisher' ,Quantity='$Quantity' ,Price=$Price, Supplier_Id={$Supplier_Id}  WHERE ISBN='$ISBN'";
->>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
         $result=Methods::queryExecute($sql);
 
         // if successfully updated.
         if($result){
-            $_SESSION['message']="Successfully Updated";
-<<<<<<< HEAD
-            Methods::redirectTo("viewbook.php");
-=======
+            $_SESSION['message']="<div class='alert alert-success' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>Successfully Updated";
             Methods::redirectTo("Search.php");
         }
 
@@ -242,9 +236,11 @@ class StockKeeperClass extends Staff {
 
         // if successfully updated.
         if($result){
-            $_SESSION['message']="Successfully Updated";
+            $_SESSION['message']="<div class='alert alert-success' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>Successfully Updated";
             Methods::redirectTo("Search.php");
->>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
         }
 
         else {
@@ -252,43 +248,25 @@ class StockKeeperClass extends Staff {
         }
     }
 
-<<<<<<< HEAD
-    function editBookManually(){
-        $ISBN=$_POST['ISBN'];
-        $Name=$_POST['Title'];
-        $Author=$_POST['Author'];
-        $Genre=$_POST['Genre'];
-        $Publisher=$_POST['Publisher'];
-        $Price=$_POST['Price'];
-        $Quantity=$_POST['Qty'];
-        $Supplier_Id=$_POST['SupID'];
-        // update data in mysql database
-        $sql="UPDATE book SET Name='$Name', Author='$Author',Genre='$Genre',Publisher='$Publisher' ,Quantity='$Quantity' , Supplier_Id={$Supplier_Id}  WHERE ISBN='$ISBN'";
-        $result=Methods::queryExecute($sql);
-
-        // if successfully updated.
-        if($result){
-            $_SESSION['message']="Successfully Updated";
-            Methods::redirectTo("viewbook.php");
-        }
-
-        else {
-            echo "ERROR";
-=======
     function delBook(){
         $ID=$_GET["ISBN"];
         $query1 = "UPDATE book SET Status ='Bad' WHERE ISBN = '{$ID}' ";
         $result1=Methods::queryExecute($query1);
         if($result1)
         {
-            $_SESSION['message']="Book Black_List";
+            $_SESSION['message']="<div class='alert alert-success' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>Book Black_Listed";
             Methods::redirectTo('Search.php');
         }
         else{
 
-            $_SESSION['message']="Book Deletion Fail";
+            $_SESSION['message']="<div class='alert alert-warning' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>Book Deletion Fail";
             Methods::redirectTo('Search.php');
->>>>>>> 9d9940677c6f83a2090be86b6a42697f8e938c96
         }
     }
 
