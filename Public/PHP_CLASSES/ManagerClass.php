@@ -77,11 +77,17 @@ class ManagerClass extends Staff{
             $result=Methods::queryExecute($query);
 
             if($result){
-                $_SESSION['message']="Staff member added ";
+                $_SESSION['message']="<div class='alert alert-success' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>SUCCESSFUL! Staff member Added ";
                 Methods::redirectTo("manager.php");
             }
             else{
-                $_SESSION['message']="Couldn't add member ";
+                $_SESSION['message']="<div class='alert alert-warning' role='alert'>
+                     <button type='button' class='close' data-dismiss='alert'>
+                     <span aria-hidden='true'>&times;</span><span class='sr-only'></span>
+                     </button>WARNING! Couldn't add member ";
                 Methods::redirectTo("manager.php");
             }
 
